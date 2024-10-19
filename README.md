@@ -66,5 +66,15 @@ The user experience (UX) design of the steakhouse restaurant website is crafted 
 6. Provide Contact Details
 
    Provide our customers with easy ways to contact the restaurant. Display the restaurant's location on a map so our customers manage to get here without too much a hassle.
+### User Stories
+1. As a Regular Customer, I want to be able to book a table, using a simplified form and receive feedback when the form submission is complete.
+2. As a Regular Customer, I want to sign up for newsletters, so I can stay informed about upcoming events.
+3. As a First Time Customer, I want the menu to be easily accessible and to be able to see images and read a short description about each dish.
+4. As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
+5. As a Customer, I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
+6. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
+7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
+9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
    
    
