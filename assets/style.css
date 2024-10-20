@@ -1,2 +1,34 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Variables */
+:root {
+  --font-primay: "Open Sans", serif;
+  --font-secondary: "Merriweather", serif;
+
+  --color-primary: #763732;
+  --color-secondary: #222c3d;
+  --color-grey: #d3d3d3;
+  --color-grey-light: #fafafa;
+  --color-white: #fff;
+}
+
+/* Base */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primay);
+  line-height: 1.4;
+  background-color: var(--color-grey-light);
+}
