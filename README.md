@@ -76,5 +76,11 @@ The user experience (UX) design of the steakhouse restaurant website is crafted 
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
-   
+### Wireframes
+Wireframes serve as a blueprint for the design, focusing on placement of elements and overall flow. Below are the key wireframes for the main pages:
+1. [Homepage](https://balsamiq.cloud/satwo1d/pak9a5f/r2278)
+2. [Menu](https://balsamiq.cloud/satwo1d/pak9a5f/r6701)
+3. [Reservation](https://balsamiq.cloud/satwo1d/pak9a5f/r84CB)
+4. [About](https://balsamiq.cloud/satwo1d/pak9a5f/r94EF)
+5. [Contact](https://balsamiq.cloud/satwo1d/pak9a5f/rDAC3)
    
