@@ -89,3 +89,10 @@ header #menu-btn:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
 }
+
+/* Use the display: inline-block so that the border-bottom si the same width as the nav link content */
+@media only screen and (max-width: 992px) {
+  header #navbar .nav-link {
+    display: inline-block;
+  }
+}
