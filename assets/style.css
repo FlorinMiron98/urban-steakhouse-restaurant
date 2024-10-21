@@ -29,8 +29,12 @@ html {
 
 body {
   font-family: var(--font-secondary);
-  line-height: 1.4;
   background-color: var(--color-grey-light);
+}
+
+/* Utility class for sections */
+.section {
+  margin-top: 8rem;
 }
 
 /* Header */
@@ -48,6 +52,10 @@ header #navbar {
   box-shadow: 0 2px 5px 1px var(--color-secondary);
   font-family: var(--font-primary);
   letter-spacing: 1.2px;
+}
+
+header #navbar .container-fluid {
+  padding: 0;
 }
 
 header #navbar .navbar-brand img {
@@ -90,6 +98,26 @@ header #menu-btn:hover {
   background-color: var(--color-primary);
 }
 
+/* Main */
+/* Welcome section */
+main #welcome-section .row {
+  gap: 5rem;
+}
+
+main #welcome-section h1 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+main #welcome-section p {
+  color: var(--color-secondary);
+}
+
+main #welcome-section img {
+  object-fit: cover;
+}
+
+/* Media Queries */
 /* Use the display: inline-block so that the border-bottom si the same width as the nav link content */
 @media only screen and (max-width: 992px) {
   header #navbar .nav-link {
