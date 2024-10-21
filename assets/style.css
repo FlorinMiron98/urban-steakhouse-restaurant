@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap");
 
 /* CSS Reset */
 *,
@@ -12,8 +12,8 @@
 
 /* Variables */
 :root {
-  --font-primary: "Open Sans", serif;
-  --font-secondary: "Merriweather", serif;
+  --font-primary: "Pacifico", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
 
   --color-primary: #763732;
   --color-secondary: #222c3d;
@@ -34,7 +34,6 @@ body {
 }
 
 /* Header */
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-ambience.jpg");
@@ -44,14 +43,15 @@ header {
 }
 
 header #navbar {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 5px 1px var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  letter-spacing: 1.2px;
 }
 
 header #navbar .navbar-brand img {
-  width: 8rem;
+  width: 10rem;
 }
 
 header #navbar .nav-link {
