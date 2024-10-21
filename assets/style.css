@@ -12,7 +12,7 @@
 
 /* Variables */
 :root {
-  --font-primay: "Open Sans", serif;
+  --font-primary: "Open Sans", serif;
   --font-secondary: "Merriweather", serif;
 
   --color-primary: #763732;
@@ -28,7 +28,45 @@ html {
 }
 
 body {
-  font-family: var(--font-primay);
+  font-family: var(--font-primary);
   line-height: 1.4;
   background-color: var(--color-grey-light);
+}
+
+/* Header */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-ambience.jpg");
+  background-size: cover;
+  background-position: center top 15%;
+  background-repeat: no-repeat;
+}
+
+header #navbar {
+  font-size: 1.2rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px 1px var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+header #navbar .navbar-brand img {
+  width: 8rem;
+}
+
+header #navbar .nav-link {
+  color: var(--color-white);
+}
+
+header #navbar .nav-link:hover,
+header #navbar .dropdown-menu .dropdown-item:hover {
+  color: var(--color-primary);
+}
+
+header #navbar li:not(:last-child) {
+  padding-right: 1.5em;
+}
+
+header #navbar .navbar-nav .active {
+  color: var(--color-primary);
 }
