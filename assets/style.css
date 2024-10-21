@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   line-height: 1.4;
   background-color: var(--color-grey-light);
 }
@@ -54,13 +54,13 @@ header #navbar .navbar-brand img {
   width: 10rem;
 }
 
-header #navbar .nav-link {
-  color: var(--color-white);
+header #navbar .nav-link,
+header #navbar .dropdown-menu .dropdown-item {
+  color: var(--color-primary);
 }
 
-header #navbar .nav-link:hover,
-header #navbar .dropdown-menu .dropdown-item:hover {
-  color: var(--color-primary);
+header #navbar .nav-link:hover {
+  border-bottom: 2px solid var(--color-primary);
 }
 
 header #navbar li:not(:last-child) {
@@ -68,5 +68,24 @@ header #navbar li:not(:last-child) {
 }
 
 header #navbar .navbar-nav .active {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+header #welcome-heading,
+header p {
+  color: var(--color-grey-light);
+}
+
+header #welcome-heading {
+  font-family: var(--font-primary);
+  letter-spacing: 10px;
+}
+
+header #menu-btn {
   color: var(--color-primary);
+}
+
+header #menu-btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
 }

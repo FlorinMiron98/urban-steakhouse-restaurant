@@ -27,11 +27,11 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header class="min-vh-100">
+    <header class="min-vh-100 d-flex align-items-center justify-content-center">
       <!-- Navbar -->
       <nav
         id="navbar"
-        class="navbar navbar-expand-lg bg-body-tertiary bg-opacity-75 fixed-top w-100 py-3 px-3 px-md-5"
+        class="navbar navbar-expand-lg bg-body-tertiary bg-opacity-75 fixed-top w-100 py-3 px-2 px-md-5"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -86,6 +86,26 @@
           </div>
         </div>
       </nav>
+      <div
+        class="container d-flex flex-column align-items-center w-75 w-md-50"
+        aria-labelledby="welcome-heading"
+      >
+        <p class="fs-3 fw-bold">Welcome to</p>
+        <h1 id="welcome-heading" class="display-1 text-center">
+          Urban Steakhouse
+        </h1>
+        <p class="fs-6 text-center mt-2">
+          Welcome to our steakhouse, where culinary excellence meets a warm,
+          inviting atmosphere. We pride ourselves on serving the finest cuts of
+          premium beef, expertly aged and grilled to perfection.
+        </p>
+        <a
+          id="menu-btn"
+          href="#"
+          class="btn btn-light border border-0 fw-bold mt-4"
+          >Check Menu</a
+        >
+      </div>
     </header>
     <!-- Bootstrap's compiled JavaScript -->
     <script
