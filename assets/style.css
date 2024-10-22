@@ -32,7 +32,12 @@ body {
   background-color: var(--color-grey-light);
 }
 
-/* Utility class for sections */
+h1 {
+  font-family: var(--font-primary);
+  letter-spacing: 10px;
+}
+
+/* Utility classes */
 .section {
   margin-top: 8rem;
 }
@@ -55,7 +60,7 @@ header #navbar {
 }
 
 header #navbar .container-fluid {
-  padding: 0;
+  width: 85%;
 }
 
 header #navbar .navbar-brand img {
@@ -84,11 +89,6 @@ header p {
   color: var(--color-grey-light);
 }
 
-header #welcome-heading {
-  font-family: var(--font-primary);
-  letter-spacing: 10px;
-}
-
 header #menu-btn {
   color: var(--color-primary);
 }
@@ -100,23 +100,18 @@ header #menu-btn:hover {
 
 /* Main */
 /* Welcome section */
-main #welcome-section .row {
-  gap: 5rem;
+main #welcome {
+  width: 85%;
 }
 
-main #welcome-section h1 {
+main #welcome h1 {
   color: var(--color-primary);
   font-family: var(--font-primary);
 }
 
-main #welcome-section p {
+main #welcome p {
   color: var(--color-secondary);
 }
-
-main #welcome-section img {
-  object-fit: cover;
-}
-
 /* Media Queries */
 /* Use the display: inline-block so that the border-bottom si the same width as the nav link content */
 @media only screen and (max-width: 992px) {
