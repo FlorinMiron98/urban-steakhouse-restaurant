@@ -83,4 +83,8 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 3. [Reservation](https://balsamiq.cloud/satwo1d/pak9a5f/r84CB)
 4. [About](https://balsamiq.cloud/satwo1d/pak9a5f/r94EF)
 5. [Contact](https://balsamiq.cloud/satwo1d/pak9a5f/rDAC3)
+## Technologies Used
+1. **HTML5** - The foundational markup language for structuring web content.
+2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
+3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes and for pre-designed components and utilities.
    
