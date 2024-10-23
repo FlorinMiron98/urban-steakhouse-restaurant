@@ -42,6 +42,15 @@ h1 {
   margin-top: 8rem;
 }
 
+.heading-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0;
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
 /* Header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -106,12 +115,36 @@ main #welcome {
 
 main #welcome h1 {
   color: var(--color-primary);
-  font-family: var(--font-primary);
 }
 
 main #welcome p {
   color: var(--color-secondary);
 }
+
+/* Discover section */
+#discover .heading-background {
+  color: var(--color-white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/coffee-on-a-table.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#discover .row {
+  width: 85%;
+}
+
+#discover .card .card-title {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-size: 1.6rem;
+}
+
+#discover .card .card-text {
+  color: var(--font-secondary);
+}
+
 /* Media Queries */
 /* Use the display: inline-block so that the border-bottom si the same width as the nav link content */
 @media only screen and (max-width: 992px) {
