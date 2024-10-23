@@ -154,3 +154,9 @@ main #welcome p {
     display: inline-block;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  header .container p {
+    font-size: 0.8rem;
+  }
+}
