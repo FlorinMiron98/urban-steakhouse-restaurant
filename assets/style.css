@@ -20,6 +20,8 @@
   --color-grey: #d3d3d3;
   --color-grey-light: #fafafa;
   --color-white: #fff;
+
+  --responsive-width: 85%;
 }
 
 /* Base */
@@ -69,7 +71,7 @@ header #navbar {
 }
 
 header #navbar .container-fluid {
-  width: 85%;
+  width: var(--responsive-width);
 }
 
 header #navbar .navbar-brand img {
@@ -110,7 +112,7 @@ header #menu-btn:hover {
 /* Main */
 /* Welcome section */
 main #welcome {
-  width: 85%;
+  width: var(--responsive-width);
 }
 
 main #welcome h1 {
@@ -132,7 +134,7 @@ main #welcome p {
 }
 
 #discover .row {
-  width: 85%;
+  width: var(--responsive-width);
 }
 
 #discover .card .card-title {
@@ -146,7 +148,7 @@ main #welcome p {
 }
 
 /* Media Queries */
-/* Use the display: inline-block so that the border-bottom si the same width as the nav link content */
+/* Use the display: inline-block so that the border-bottom is the same width as the nav link content */
 @media only screen and (max-width: 992px) {
   header #navbar .nav-link {
     display: inline-block;
