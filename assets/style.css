@@ -149,7 +149,7 @@ main #welcome p {
 
 /* Media Queries */
 /* Use the display: inline-block so that the border-bottom is the same width as the nav link content */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   header #navbar .nav-link {
     display: inline-block;
   }
