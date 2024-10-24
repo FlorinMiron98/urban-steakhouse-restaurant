@@ -34,7 +34,8 @@ body {
   background-color: var(--color-grey-light);
 }
 
-h1 {
+h1,
+h2 {
   font-family: var(--font-primary);
   letter-spacing: 10px;
 }
@@ -115,7 +116,7 @@ main #welcome {
   width: var(--responsive-width);
 }
 
-main #welcome h1 {
+main #welcome h2 {
   color: var(--color-primary);
 }
 
