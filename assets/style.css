@@ -125,7 +125,7 @@ main #welcome p {
 }
 
 /* Discover section */
-#discover .heading-background {
+main #discover .heading-background {
   color: var(--color-white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/coffee-on-a-table.jpg");
@@ -134,17 +134,17 @@ main #welcome p {
   background-position: bottom center;
 }
 
-#discover .row {
+main #discover .row {
   width: var(--responsive-width);
 }
 
-#discover .card .card-title {
+main #discover .card .card-title {
   font-family: var(--font-primary);
   color: var(--color-primary);
   font-size: 1.6rem;
 }
 
-#discover .card .card-text {
+main #discover .card .card-text {
   color: var(--font-secondary);
 }
 
