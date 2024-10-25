@@ -236,6 +236,10 @@ main #events .container .carousel .carousel-control-next-icon {
 }
 
 @media only screen and (max-width: 576px) {
+  header #navbar .navbar-brand img {
+    width: 8rem;
+  }
+
   header .container p {
     font-size: 0.8rem;
   }
