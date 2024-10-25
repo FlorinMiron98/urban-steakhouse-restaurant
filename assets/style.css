@@ -204,7 +204,6 @@ main #events .container .carousel div .btn {
   transition: all 0.25s linear;
 }
 
-/* @@@@@@ to do - Change the hover styling. Try focus-ring class from Bootstrap docs */
 main #events .container .carousel div .btn:hover {
   background-color: var(--color-grey-light);
   color: var(--color-primary);
@@ -214,6 +213,46 @@ main #events .container .carousel .carousel-control-prev-icon,
 main #events .container .carousel .carousel-control-next-icon {
   padding: 1.2rem;
   /* Implement background color to diferentiate from background on screen sizes smaller than 992px */
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
+/* Testimonials */
+main #testimonials {
+  padding-bottom: 7.6rem;
+}
+
+main #testimonials h2 {
+  color: var(--color-primary);
+}
+
+main #testimonials .container {
+  width: var(--responsive-width);
+}
+
+main #testimonials .carousel-indicators {
+  margin-bottom: 0;
+  top: 105%;
+}
+
+main #testimonials .container .carousel-inner img {
+  /* 120px / 16px */
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+}
+
+main #testimonials .container .carousel-inner .star-rating {
+  color: var(--color-primary);
+}
+
+main #testimonials .container .carousel-inner blockquote {
+  color: var(--color-secondary);
+}
+
+main #testimonials .container .carousel .carousel-control-prev-icon,
+main #testimonials .container .carousel .carousel-control-next-icon {
+  padding: 1.2rem;
   background-color: var(--color-secondary);
   border-radius: 50%;
 }
@@ -228,15 +267,23 @@ main #events .container .carousel .carousel-control-next-icon {
 
 @media only screen and (max-width: 992px) {
   /* Create a small gap between the prev and next buttons and the edges of the container */
-  main #events .container .carousel .carousel-control-prev {
+  main #events .container .carousel .carousel-control-prev,
+  main #testimonials .container .carousel .carousel-control-prev {
     left: 0.4rem;
   }
-  main #events .container .carousel .carousel-control-next {
+  main #events .container .carousel .carousel-control-next,
+  main #testimonials .container .carousel .carousel-control-next {
     right: 0.4rem;
   }
 }
 
 @media only screen and (max-width: 576px) {
+  h1,
+  h2 {
+    font-family: var(--font-primary);
+    letter-spacing: 5px;
+  }
+
   header #navbar .navbar-brand img {
     width: 8rem;
   }
