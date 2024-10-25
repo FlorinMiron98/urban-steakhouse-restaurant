@@ -148,11 +148,90 @@ main #discover .card .card-text {
   color: var(--font-secondary);
 }
 
+/* Events Section */
+main #events {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./images/restaurant-event.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 7.6rem;
+}
+
+main #events h2 {
+  color: var(--color-white);
+}
+
+main #events .container {
+  width: var(--responsive-width);
+}
+
+main #events .carousel-indicators {
+  margin-bottom: 0;
+  top: 105%;
+}
+
+main #events .container .carousel-inner .carousel-item {
+  max-height: 43.75rem;
+  /* Border radius for screen sizes smaller than 992px(lg) */
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+main #events .container .carousel-inner img,
+main #events .container .carousel-inner .col-12:nth-of-type(2) {
+  /* 350px / 16px */
+  height: 21.175rem;
+}
+
+main #events .container .carousel .col-12:nth-of-type(2) {
+  background-color: var(--color-grey-light);
+}
+
+main #events .container .carousel h3 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+main #events .container .carousel p {
+  color: var(--color-secondary);
+}
+
+main #events .container .carousel div a {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+  transition: all 0.25s linear;
+}
+
+main #events .container .carousel div a:hover {
+  background-color: var(--color-grey-light);
+  color: var(--color-primary);
+}
+
+main #events .container .carousel .carousel-control-prev-icon,
+main #events .container .carousel .carousel-control-next-icon {
+  padding: 1.2rem;
+  /* Implement background color to diferentiate from background on screen sizes smaller than 992px */
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
 /* Media Queries */
 /* Use the display: inline-block so that the border-bottom is the same width as the nav link content */
 @media only screen and (max-width: 1200px) {
   header #navbar .nav-link {
     display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* Create a small gap between the prev and next buttons and the edges of the container */
+  main #events .container .carousel .carousel-control-prev {
+    left: 0.4rem;
+  }
+  main #events .container .carousel .carousel-control-next {
+    right: 0.4rem;
   }
 }
 
