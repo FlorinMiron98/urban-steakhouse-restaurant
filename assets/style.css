@@ -20,6 +20,7 @@
   --color-grey: #d3d3d3;
   --color-grey-light: #fafafa;
   --color-white: #fff;
+  --color-gray-transparent: rgba(210, 210, 210, 0.85);
 
   --responsive-width: 85%;
 }
@@ -55,12 +56,25 @@ h2 {
 }
 
 /* Header */
-header {
+#header-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-ambience.jpg");
   background-size: cover;
   background-position: center top 15%;
   background-repeat: no-repeat;
+}
+
+#header-menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-menu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#header-menu h1,
+#header-menu h2 {
+  color: var(--color-white);
 }
 
 header #navbar {
@@ -277,6 +291,72 @@ main #events-signup form .btn:hover {
   color: var(--color-primary);
 }
 
+/* Menu */
+main #menu .container {
+  width: var(--responsive-width);
+}
+
+main #menu .menu-grid {
+  display: grid;
+  grid-template-areas:
+    "starters mains desserts"
+    "starters mains drinks";
+  min-height: 25rem;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+}
+
+main #menu .menu-grid a {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  letter-spacing: 2px;
+  background-color: var(--color-gray-transparent);
+  color: var(--color-secondary);
+  border-radius: 1rem;
+  transition: all 0.25s linear;
+}
+
+main #menu .menu-grid a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+main #menu .menu-grid > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 1rem;
+}
+
+main #menu .menu-grid .starters {
+  grid-area: starters;
+  background-image: url("./images/starters.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main #menu .menu-grid .mains {
+  grid-area: mains;
+  background-image: url("./images/mains.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main #menu .menu-grid .desserts {
+  grid-area: desserts;
+  background-image: url("./images/desserts.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main #menu .menu-grid .drinks {
+  grid-area: drinks;
+  background-image: url("./images/drinks.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* Footer */
 footer {
   background-color: var(--color-secondary);
@@ -323,6 +403,17 @@ footer .container a:hover {
   main #events .container .carousel .carousel-control-next,
   main #testimonials .container .carousel .carousel-control-next {
     right: 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main #menu .menu-grid {
+    grid-template-areas:
+      "starters"
+      "mains"
+      "desserts"
+      "drinks";
+    min-height: 37.5rem;
   }
 }
 
