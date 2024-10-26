@@ -55,28 +55,9 @@ h2 {
   margin-bottom: 7rem;
 }
 
-/* Header */
-#header-home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/restaurant-ambience.jpg");
-  background-size: cover;
-  background-position: center top 15%;
-  background-repeat: no-repeat;
-}
-
-#header-menu {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/restaurant-menu.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#header-menu h1,
-#header-menu h2 {
-  color: var(--color-white);
-}
-
+/* ================ */
+/* Header Global */
+/* ================ */
 header #navbar {
   font-size: 1.4rem;
   backdrop-filter: blur(10px);
@@ -93,8 +74,7 @@ header #navbar .navbar-brand img {
   width: 10rem;
 }
 
-header #navbar .nav-link,
-header #navbar .dropdown-menu .dropdown-item {
+header #navbar .nav-link {
   color: var(--color-primary);
 }
 
@@ -110,21 +90,50 @@ header #navbar .navbar-nav .active {
   border-bottom: 2px solid var(--color-primary);
 }
 
-header #welcome-heading,
-header p {
+/* ============== */
+/* Header Home */
+/* ============== */
+#header-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-ambience.jpg");
+  background-size: cover;
+  background-position: center top 15%;
+  background-repeat: no-repeat;
+}
+
+#header-home #welcome-heading,
+#header-home p {
   color: var(--color-grey-light);
 }
 
-header #menu-btn {
+#header-home #menu-btn {
   color: var(--color-primary);
 }
 
-header #menu-btn:hover {
+#header-home #menu-btn:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
 }
 
-/* Main */
+/* ============== */
+/* Header Menu */
+/* ============== */
+#header-menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-menu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#header-menu h1,
+#header-menu h2 {
+  color: var(--color-white);
+}
+
+/* ============ */
+/* Main Home */
+/* ============ */
 /* Welcome section */
 main #welcome {
   width: var(--responsive-width);
@@ -291,7 +300,9 @@ main #events-signup form .btn:hover {
   color: var(--color-primary);
 }
 
-/* Menu */
+/* ============ */
+/* Main Menu */
+/* ============ */
 main #menu .container {
   width: var(--responsive-width);
 }
@@ -357,7 +368,9 @@ main #menu .menu-grid .drinks {
   background-position: center;
 }
 
+/* ========= */
 /* Footer */
+/* ========= */
 footer {
   background-color: var(--color-secondary);
   color: var(--color-white);
@@ -386,8 +399,10 @@ footer .container a:hover {
   color: var(--color-grey-light);
 }
 
+/* ================ */
 /* Media Queries */
-/* Use the display: inline-block so that the border-bottom is the same width as the nav link content */
+/* ================ */
+/* Use the display: inline-block so that the nav link border-bottom is the same width as the nav link content */
 @media only screen and (max-width: 1200px) {
   header #navbar .nav-link {
     display: inline-block;
