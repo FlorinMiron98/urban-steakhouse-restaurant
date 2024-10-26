@@ -86,6 +86,24 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 ## Technologies Used
 1. **HTML5** - The foundational markup language for structuring web content.
 2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
-3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes and for pre-designed components and utilities.
+3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes.
 ## Credits
 ### Media
+1. Images
+   #### Favicon
+   - favicon.png: [Image Source](https://logo.com/)
+   #### Home Page
+   - logo-no-background.png: The website logo was created using the free logo maker website [logo.com](https://logo.com/)
+   - restaurant-ambience.jpg: [Image Source](https://pixabay.com/illustrations/bar-restaurant-bavaria-beer-club-826688/) - Photo by [newhouse](https://pixabay.com/users/newhouse-1160730/)
+   - restaurant-bar.jpg: [Image Source](https://unsplash.com/photos/brown-themed-bar-GXXYkSwndP4) - Photo by [Patrick Tomasso](https://unsplash.com/@impatrickt)
+   - coffee-on-a-table.jpg: [Image Source](https://pixabay.com/illustrations/ai-generated-cafe-coffee-caffeine-8650286/) - Photo by [Iffany](https://pixabay.com/users/iffany-6128830/)
+   - amazing-location.jpg: [Image Source](https://unsplash.com/photos/a-street-with-cars-and-buildings-ljFC9W-859Y) - Photo by [Diane Picchiottino](https://unsplash.com/@diane_soko)
+   - delicious-food.jpg: [Image Source](https://unsplash.com/photos/medium-rare-sliced-steak-in-white-ceramic-plate-O67LZfeyYBk) - Photo by [Jason Leung](https://unsplash.com/@ninjason)
+   - excellent-coffe.jpg: [Image Source](https://pixabay.com/photos/coffee-cup-caffeine-espresso-4618705/)
+   - restaurant-event.jpg: [Image Source](https://unsplash.com/photos/person-putting-wine-on-flute-glass-RygIdTavhkQ) - Photo by [Dave Lastvoskiy](https://unsplash.com/@dlasto)
+   - beef-wellington.jpg: [Image Source](https://unsplash.com/photos/slice-of-meat-on-plate-Lf2dvyS-d2E) - Photo by [Loija Nguyen](https://unsplash.com/@loija)
+   - chocolate-mousse.jpg: [Image Source](https://www.pexels.com/photo/close-up-photo-of-chocolate-mousse-3026810/) - Photo by [Ella Olsson](https://www.pexels.com/@ella-olsson-572949/)
+   - the-ultimate-steak.jpg: [Image Source](https://pixabay.com/photos/steak-flesh-beef-meal-food-2272464/) - Photo by [Bru-nO](https://pixabay.com/users/bru-no-1161770/)
+   - jake-thompson.jpg: [Image Source](https://www.pexels.com/photo/cheerful-mature-well-dressed-black-businessman-with-folded-arms-5648100/) - Photo by [Ono Kosuki](https://www.pexels.com/@ono-kosuki/)
+   - mark-reynolds.jpg: [Image Source](https://www.pexels.com/photo/cheerful-man-in-multicolored-sweater-standing-near-concrete-wall-outdoors-4348266/) - Photo by [ArtHouse Studio](https://www.pexels.com/@arthousestudio/)
+   - emily-carter.jpg: [Image Source](https://www.pexels.com/photo/elderly-woman-standing-in-garden-5638645/) - Photy by [Askar Abayev](https://www.pexels.com/@askar-abayev/)
