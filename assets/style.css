@@ -346,24 +346,23 @@ main #menu .menu-grid > * {
 main #menu .menu-grid .starters {
   grid-area: starters;
   background-image: url("./images/starters.jpg");
-  background-size: cover;
-  background-position: center;
 }
 main #menu .menu-grid .mains {
   grid-area: mains;
   background-image: url("./images/mains.jpg");
-  background-size: cover;
-  background-position: center;
 }
 main #menu .menu-grid .desserts {
   grid-area: desserts;
   background-image: url("./images/desserts.jpg");
-  background-size: cover;
-  background-position: center;
 }
 main #menu .menu-grid .drinks {
   grid-area: drinks;
   background-image: url("./images/drinks.jpg");
+}
+main #menu .menu-grid .starters,
+main #menu .menu-grid .mains,
+main #menu .menu-grid .desserts,
+main #menu .menu-grid .drinks {
   background-size: cover;
   background-position: center;
 }
