@@ -394,6 +394,15 @@ header #navbar .navbar-nav .active {
   background-position: center;
 }
 
+#main-menu #drinks .heading-background {
+  color: var(--color-white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-drinks-heading.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 #main-menu .section .container {
   width: var(--responsive-width);
 }
