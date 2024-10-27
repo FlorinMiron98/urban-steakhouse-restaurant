@@ -368,36 +368,30 @@ header #navbar .navbar-nav .active {
 }
 
 #main-menu #starters .heading-background {
-  color: var(--color-white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-starters-heading.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 #main-menu #mains .heading-background {
-  color: var(--color-white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-mains-heading.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 #main-menu #desserts .heading-background {
-  color: var(--color-white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-desserts-heading.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 #main-menu #drinks .heading-background {
-  color: var(--color-white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/restaurant-drinks-heading.jpg");
+}
+
+#main-menu #starters .heading-background,
+#main-menu #mains .heading-background,
+#main-menu #desserts .heading-background,
+#main-menu #drinks .heading-background {
+  color: var(--color-white);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
