@@ -470,6 +470,10 @@ footer .container a:hover {
     letter-spacing: 5px;
   }
 
+  .heading-background {
+    padding: 5rem 0;
+  }
+
   header #navbar .navbar-brand img {
     width: 8rem;
   }
