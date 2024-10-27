@@ -49,6 +49,7 @@ h2 {
 .heading-background {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 7rem 0;
   width: 100%;
@@ -367,6 +368,37 @@ main #menu .menu-grid .drinks {
   background-position: center;
 }
 
+main #starters .heading-background {
+  color: var(--color-white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-starters-heading.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+main #starters .container {
+  width: var(--responsive-width);
+}
+
+main #starters .container .item-image {
+  max-width: 11.25rem;
+  max-height: 11.25rem;
+}
+
+main #starters .container h3 {
+  font-family: var(--font-primary);
+  letter-spacing: 1px;
+  color: var(--color-primary);
+}
+
+main #starters .container .item-description {
+  color: var(--color-secondary);
+}
+main #starters .container .item-price {
+  color: var(--color-primary);
+}
+
 /* ========= */
 /* Footer */
 /* ========= */
@@ -444,5 +476,10 @@ footer .container a:hover {
 
   header .container p {
     font-size: 0.8rem;
+  }
+
+  main #starters .container .item-image {
+    max-width: 9.375rem;
+    max-height: 9.375rem;
   }
 }
