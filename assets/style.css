@@ -132,6 +132,23 @@ header #navbar .navbar-nav .active {
   color: var(--color-white);
 }
 
+/* ===================== */
+/* Header Reservation */
+/* ===================== */
+
+#header-reservation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/terrace-table.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#header-reservation h1,
+#header-reservation h2 {
+  color: var(--color-white);
+}
+
 /* ============ */
 /* Main Home */
 /* ============ */
@@ -416,6 +433,29 @@ header #navbar .navbar-nav .active {
   color: var(--color-secondary);
 }
 #main-menu .section .container .item-price {
+  color: var(--color-primary);
+}
+
+/* =================== */
+/* Main Reservation */
+/* =================== */
+#main-reservation h2 {
+  color: var(--color-primary);
+}
+
+#main-reservation .container {
+  width: var(--responsive-width);
+}
+
+#main-reservation form .btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+  transition: all 0.25s linear;
+}
+
+#main-reservation form .btn:hover {
+  background-color: var(--color-white);
   color: var(--color-primary);
 }
 
