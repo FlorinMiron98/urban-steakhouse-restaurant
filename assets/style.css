@@ -475,6 +475,21 @@ header #navbar .navbar-nav .active {
   color: var(--color-primary);
 }
 
+/* ============= */
+/* Main About */
+/* ============= */
+#main-about h2 {
+  color: var(--color-primary);
+}
+
+#main-about #about-introduction .container {
+  width: var(--responsive-width);
+}
+
+#main-about #about-introduction .container p {
+  color: var(--color-secondary);
+}
+
 /* ========= */
 /* Footer */
 /* ========= */
