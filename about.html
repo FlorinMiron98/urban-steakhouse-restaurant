@@ -33,7 +33,7 @@
   <body>
     <!-- Header Section -->
     <header
-      id="header-reservation"
+      id="header-about"
       class="min-vh-100 d-flex align-items-center justify-content-center"
     >
       <!-- Navbar -->
@@ -68,15 +68,15 @@
                 <a class="nav-link" href="menu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Reservation</a
-                >
+                <a class="nav-link" href="reservation.html">Reservation</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#events-signup">Subscribe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -92,101 +92,12 @@
         <h1 id="menu-heading" class="display-2 display-md-1 text-center">
           Urban Steakhouse
         </h1>
-        <h2 class="display-6">Reservation</h2>
+        <h2 class="display-6">About Us</h2>
       </div>
     </header>
 
     <!-- Main -->
-    <main id="main-reservation">
-      <section id="reservation" class="section mb-5">
-        <h2 class="text-center display-3 mb-5">Book a Table</h2>
-        <div class="container p-0">
-          <form action="#">
-            <div class="row justify-content-center mb-0">
-              <!-- Full Name Input -->
-              <div class="col-12 col-md-4 mb-4">
-                <label for="fname" class="form-label">Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="fname"
-                  name="fname"
-                  required
-                />
-              </div>
-              <!-- Email Address Input -->
-              <div class="col-12 col-md-4 mb-4">
-                <label for="email" class="form-label">Email Address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  required
-                />
-              </div>
-              <!-- Phone Number Input -->
-              <div class="col-12 col-md-4 mb-3">
-                <label for="phone" class="form-label">Phone Number</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="phone"
-                  name="phone"
-                  required
-                />
-              </div>
-
-              <!-- Date Input -->
-              <div class="col-12 col-md-4 mb-3">
-                <label for="date" class="form-label">Date</label>
-                <input
-                  type="date"
-                  id="date"
-                  class="form-control"
-                  name="date"
-                  required
-                />
-              </div>
-              <!-- Time Select -->
-              <div class="col-12 col-md-4 mb-3">
-                <label for="select" class="form-label">Time</label>
-                <select
-                  id="select"
-                  class="form-select"
-                  name="booking-time"
-                  required
-                >
-                  <option value="">Select</option>
-                  <option value="12:00 PM">12:00 PM</option>
-                  <option value="01:30 PM">01:30 PM</option>
-                  <option value="03:00 PM">03:00 PM</option>
-                  <option value="04:30 PM">04:30 PM</option>
-                  <option value="06:00 PM">06:00 PM</option>
-                  <option value="07:30 PM">07:30 PM</option>
-                  <option value="09:00 PM">09:00 PM</option>
-                </select>
-              </div>
-              <!-- Number of Guests Input -->
-              <div class="col-12 col-md-4 mb-3">
-                <label for="guests" class="form-label">Number of Guests</label>
-                <input
-                  type="number"
-                  id="guests"
-                  class="form-control"
-                  name="guests"
-                  max="6"
-                  required
-                />
-              </div>
-            </div>
-            <div class="text-center mt-3">
-              <button type="submit" class="btn focus-ring">Book a Table</button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
+    <main id="main-about"></main>
 
     <!-- Footer -->
     <footer>
