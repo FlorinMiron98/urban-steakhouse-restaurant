@@ -31,6 +31,43 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+    <!-- Video Modal -->
+    <div
+      class="modal fade"
+      id="video-modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-4" id="staticBackdropLabel">
+              Short Video
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls muted class="w-100">
+              <source src="./assets/videos/restaurant-video-2.mp4" />
+              <source src="./assets/videos/restaurant-video-1.webm" />
+              <p>
+                Your browser doesn't support HTML video content. You can
+                download the video by clicking
+                <a href="./assets/videos/restaurant-video-2.mp4">here</a>
+              </p>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Header Section -->
     <header
       id="header-about"
@@ -98,6 +135,7 @@
 
     <!-- Main -->
     <main id="main-about">
+      <!-- Introduction Section -->
       <section id="about-introduction" class="section">
         <h2 class="text-center display-3 mb-4">Introduction</h2>
         <div class="container p-0">
@@ -115,6 +153,26 @@
                 steakhouse setting.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section id="video" class="section">
+        <div class="heading-background mb-0" aria-labelledby="video-title">
+          <h2 id="video-title" class="text-center display-3">
+            Check our Video
+          </h2>
+          <div class="text-center d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn d-flex align-items-center justify-content-center mt-4 p-4 fs-4 focus-ring"
+              data-bs-toggle="modal"
+              data-bs-target="#video-modal"
+              aria-label="open-video-modal"
+            >
+              <i class="fa-solid fa-play"></i>
+            </button>
           </div>
         </div>
       </section>

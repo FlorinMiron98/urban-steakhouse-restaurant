@@ -435,8 +435,8 @@ header #navbar .navbar-nav .active {
 }
 
 #main-menu .section .container .item-image {
-  max-width: 11.25rem;
-  max-height: 11.25rem;
+  width: 11.25rem;
+  height: 11.25rem;
 }
 
 #main-menu .section .container h3 {
@@ -478,7 +478,9 @@ header #navbar .navbar-nav .active {
 /* ============= */
 /* Main About */
 /* ============= */
-#main-about h2 {
+
+/* Introduction Section */
+#main-about #about-introduction h2 {
   color: var(--color-primary);
 }
 
@@ -488,6 +490,31 @@ header #navbar .navbar-nav .active {
 
 #main-about #about-introduction .container p {
   color: var(--color-secondary);
+}
+
+/* Video Section */
+#main-about #video .heading-background {
+  background-image: url("./images/restaurant-table-night.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#main-about #video h2 {
+  color: var(--color-white);
+}
+
+#main-about #video .btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
+  transition: transform 0.25s linear;
+}
+
+#main-about #video .btn:hover {
+  transform: scale(1.2);
 }
 
 /* ========= */
