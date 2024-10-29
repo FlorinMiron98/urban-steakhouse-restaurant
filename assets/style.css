@@ -144,7 +144,6 @@ header #navbar .navbar-nav .active {
 /* ===================== */
 /* Header Reservation */
 /* ===================== */
-
 #header-reservation {
   background-image: var(--darkening-bg-image-1),
     url("./images/terrace-table.jpg");
@@ -254,6 +253,7 @@ header #navbar .navbar-nav .active {
 }
 
 #main-home #events .container .carousel-inner .carousel-item {
+  /* Make sure each Bootstrap card has the same height */
   max-height: 43.75rem;
   /* Border radius for screen sizes smaller than 992px(lg) */
   border-radius: 1.2rem;
@@ -291,8 +291,8 @@ header #navbar .navbar-nav .active {
   color: var(--color-primary);
 }
 
-#main-home #events .container .carousel .carousel-control-prev-icon,
-#main-home #events .container .carousel .carousel-control-next-icon {
+#main-home #events .carousel .carousel-control-prev-icon,
+#main-home #events .carousel .carousel-control-next-icon {
   padding: 1.2rem;
   /* Implement background color to diferentiate from background on screen sizes smaller than 992px */
   background-color: var(--color-secondary);
@@ -313,23 +313,23 @@ header #navbar .navbar-nav .active {
   top: 105%;
 }
 
-#main-home #testimonials .container .carousel-inner img {
+#main-home #testimonials .carousel-inner img {
   /* 120px / 16px */
   width: 7.5rem;
   height: 7.5rem;
   border-radius: 50%;
 }
 
-#main-home #testimonials .container .carousel-inner .star-rating {
+#main-home #testimonials .carousel-inner .star-rating {
   color: var(--color-primary);
 }
 
-#main-home #testimonials .container .carousel-inner blockquote {
+#main-home #testimonials .carousel-inner blockquote {
   color: var(--color-secondary);
 }
 
-#main-home #testimonials .container .carousel .carousel-control-prev-icon,
-#main-home #testimonials .container .carousel .carousel-control-next-icon {
+#main-home #testimonials .carousel .carousel-control-prev-icon,
+#main-home #testimonials .carousel .carousel-control-next-icon {
   padding: 1.2rem;
   background-color: var(--color-secondary);
   border-radius: 50%;
@@ -366,6 +366,7 @@ header #navbar .navbar-nav .active {
   width: var(--responsive-width);
 }
 
+/* Grid template areas used for easily organising the layout of the menu */
 #main-menu #menu .menu-grid {
   display: grid;
   grid-template-areas:
@@ -392,6 +393,7 @@ header #navbar .navbar-nav .active {
   color: var(--color-white);
 }
 
+/* General styling for each grid item */
 #main-menu #menu .menu-grid > * {
   display: flex;
   align-items: center;
@@ -460,6 +462,7 @@ header #navbar .navbar-nav .active {
 }
 
 #main-menu .section .container .item-image {
+  /* Set a fixed size for each image container */
   width: 11.25rem;
   height: 11.25rem;
 }
@@ -661,18 +664,19 @@ footer .container a:hover {
 
 @media only screen and (max-width: 992px) {
   /* Create a small gap between the prev and next buttons and the edges of the container */
-  #main-home #events .container .carousel .carousel-control-prev,
-  #main-home #testimonials .container .carousel .carousel-control-prev {
+  #main-home #events .carousel .carousel-control-prev,
+  #main-home #testimonials .carousel .carousel-control-prev {
     left: 0.4rem;
   }
-  #main-home #events .container .carousel .carousel-control-next,
-  #main-home #testimonials .container .carousel .carousel-control-next {
+  #main-home #events .carousel .carousel-control-next,
+  #main-home #testimonials .carousel .carousel-control-next {
     right: 0.4rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   #main-menu #menu .menu-grid {
+    /* Organize the grid template areas layout into 1 column for medium screen sizes smaller than 768px */
     grid-template-areas:
       "starters"
       "mains"
@@ -702,6 +706,7 @@ footer .container a:hover {
   }
 
   #main-menu #starters .container .item-image {
+    /* 150px / 16 */
     width: 9.375rem;
     height: 9.375rem;
   }
