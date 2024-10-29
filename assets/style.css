@@ -591,6 +591,16 @@ header #navbar .navbar-nav .active {
   color: var(--color-primary);
 }
 
+#main-contact #contact-details h3 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  letter-spacing: 2px;
+}
+
+#main-contact #contact-details p {
+  color: var(--color-secondary);
+}
+
 /* ========= */
 /* Footer */
 /* ========= */
