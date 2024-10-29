@@ -23,6 +23,15 @@
   --color-gray-transparent: rgba(210, 210, 210, 0.85);
 
   --responsive-width: 85%;
+
+  --darkening-bg-image-1: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  --darkening-bg-image-2: linear-gradient(
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75)
+  );
 }
 
 /* Base */
@@ -95,7 +104,7 @@ header #navbar .navbar-nav .active {
 /* Header Home */
 /* ============== */
 #header-home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-ambience.jpg");
   background-size: cover;
   background-position: center top 15%;
@@ -120,7 +129,7 @@ header #navbar .navbar-nav .active {
 /* Header Menu */
 /* ============== */
 #header-menu {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-menu.jpg");
   background-size: cover;
   background-position: center;
@@ -137,7 +146,7 @@ header #navbar .navbar-nav .active {
 /* ===================== */
 
 #header-reservation {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/terrace-table.jpg");
   background-size: cover;
   background-position: center;
@@ -153,7 +162,7 @@ header #navbar .navbar-nav .active {
 /* Header About */
 /* =============== */
 #header-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-table.jpg");
   background-size: cover;
   background-position: center;
@@ -169,7 +178,7 @@ header #navbar .navbar-nav .active {
 /* Header Contact */
 /* ================= */
 #header-contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-bar-daylight.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,7 +209,7 @@ header #navbar .navbar-nav .active {
 /* Discover section */
 #main-home #discover .heading-background {
   color: var(--color-white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/coffee-on-a-table.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -223,7 +232,7 @@ header #navbar .navbar-nav .active {
 
 /* Events Section */
 #main-home #events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background-image: var(--darkening-bg-image-2),
     url("./images/restaurant-event.jpg");
   background-size: cover;
   background-position: center;
@@ -417,22 +426,22 @@ header #navbar .navbar-nav .active {
 }
 
 #main-menu #starters .heading-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-starters-heading.jpg");
 }
 
 #main-menu #mains .heading-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-mains-heading.jpg");
 }
 
 #main-menu #desserts .heading-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-desserts-heading.jpg");
 }
 
 #main-menu #drinks .heading-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: var(--darkening-bg-image-1),
     url("./images/restaurant-drinks-heading.jpg");
 }
 
@@ -693,7 +702,7 @@ footer .container a:hover {
   }
 
   #main-menu #starters .container .item-image {
-    max-width: 9.375rem;
-    max-height: 9.375rem;
+    width: 9.375rem;
+    height: 9.375rem;
   }
 }
