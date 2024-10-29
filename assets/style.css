@@ -165,6 +165,22 @@ header #navbar .navbar-nav .active {
   color: var(--color-white);
 }
 
+/* ================= */
+/* Header Contact */
+/* ================= */
+#header-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/restaurant-bar-daylight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#header-contact h1,
+#header-contact h2 {
+  color: var(--color-white);
+}
+
 /* ============ */
 /* Main Home */
 /* ============ */
@@ -543,6 +559,34 @@ header #navbar .navbar-nav .active {
 }
 
 #main-about #chefs .container .card .btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+/* =============== */
+/* Main Contact */
+/* =============== */
+#main-contact h2 {
+  color: var(--color-primary);
+}
+
+#main-contact .container {
+  width: var(--responsive-width);
+}
+
+#main-contact form textarea {
+  /* Disable the resizing for textarea */
+  resize: none;
+}
+
+#main-contact form .btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+  transition: all 0.25s linear;
+}
+
+#main-contact form .btn:hover {
   background-color: var(--color-white);
   color: var(--color-primary);
 }
