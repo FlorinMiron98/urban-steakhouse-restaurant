@@ -578,6 +578,14 @@ footer .container a:hover {
   color: var(--color-grey-light);
 }
 
+/* ========= */
+/* Modals */
+/* ========= */
+.modal-content h2 {
+  color: var(--color-primary);
+  letter-spacing: 2px;
+}
+
 /* ================ */
 /* Media Queries */
 /* ================ */
