@@ -143,3 +143,5 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
    - hot-chocolate.jpg: [Image Source](https://www.pexels.com/photo/hot-chocolate-with-marshmallows-on-clear-glass-cup-7994278/) - Photo by [Ecrin](https://www.pexels.com/@ecrin-59969312/)
    - lavender-tea.jpg: [Image Source](https://pixabay.com/photos/tea-cup-pot-tea-leaves-pour-1869716/) - Photo by [Pexels](https://pixabay.com/users/pexels-2286921/)
    - lemon-tea.jpg: [Image Source](https://pixabay.com/illustrations/tea-cup-mug-lemons-drink-beverage-9030512/) - Photo by [axdesigner](https://pixabay.com/users/axdesigner-45186777/)
+   #### Reservation page
+   - terrace-table.jpg: [Image Source](https://unsplash.com/photos/two-black-empty-chairs-beside-table-in-front-of-building-IuSeZ1RjOfI) - Photo by [Taylor Vick](https://unsplash.com/@tvick)
