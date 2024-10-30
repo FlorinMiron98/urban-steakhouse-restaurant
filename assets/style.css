@@ -196,6 +196,10 @@ header #navbar .navbar-nav .active {
   color: var(--color-primary);
 }
 
+#header-reservation-confirm p {
+  color: var(--color-secondary);
+}
+
 #header-reservation-confirm .btn {
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -708,7 +712,6 @@ footer .container a:hover {
 @media only screen and (max-width: 576px) {
   h1,
   h2 {
-    font-family: var(--font-primary);
     letter-spacing: 5px;
   }
 
