@@ -194,17 +194,20 @@ header #navbar .navbar-nav .active {
 /* Header Confirmations */
 /* ============================= */
 #header-reservation-confirm h1,
-#header-subscribe-confirm h1 {
+#header-subscribe-confirm h1,
+#header-contact-confirm h1 {
   color: var(--color-primary);
 }
 
 #header-reservation-confirm p,
-#header-subscribe-confirm p {
+#header-subscribe-confirm p,
+#header-contact-confirm p {
   color: var(--color-secondary);
 }
 
 #header-reservation-confirm .btn,
-#header-subscribe-confirm .btn {
+#header-subscribe-confirm .btn,
+#header-contact-confirm .btn {
   background-color: var(--color-primary);
   color: var(--color-white);
   border: 2px solid var(--color-primary);
@@ -212,7 +215,8 @@ header #navbar .navbar-nav .active {
 }
 
 #header-reservation-confirm .btn:hover,
-#header-subscribe-confirm .btn:hover {
+#header-subscribe-confirm .btn:hover,
+#header-contact-confirm .btn:hover {
   background-color: var(--color-white);
   color: var(--color-primary);
 }
