@@ -88,6 +88,8 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
 3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes.
 ## Credits
+### Content
+- [ChatGPT](https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
 ### Media
 1. Images
    #### Favicon
@@ -156,7 +158,7 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 3. Videos
    #### About page
    - restaurant-video.mp4: [Video Source](https://pixabay.com/videos/cafe-paris-france-city-restaurant-34203/) - Video by [caelan](https://pixabay.com/users/caelan-12802865/)
-## Code
+### Code
 1. Code for the navigation bar was created using [Bootstrap Navbar Component](https://getbootstrap.com/docs/5.3/components/navbar/#nav) and edited to fit the project's needs and design.
 2. Code for Events section and Testimonials section carousel was created using [Bootstrap Carousel Component](https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works) and heavily edited to fit the project's needs and design.
 3. Code for Events signup form, Reservation form and Contact form was created using [Bootstrap Forms](https://getbootstrap.com/docs/5.3/forms/overview/#overview)
@@ -165,5 +167,7 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 6. Code for adding the correct CSS prefixes to ensure the cross-browser compatibility was created using [Autoprefixer CSS online](https://autoprefixer.github.io/)
 7. Code for Footer icons and Contact section icons was generated using [Fontawesome Icons](https://fontawesome.com/)
 8. Code for darkening background images was taken from this [stack overflow post](https://stackoverflow.com/questions/26621513/darken-css-background-image)
-## Content
-- [ChatGPT](https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
+### Inspirations
+1. [Colorlib Pato](https://preview.colorlib.com/#pato) - For the overall layout of the website.
+2. [Colorlib The Venue](https://preview.colorlib.com/#thevenue) - For the colors and typography.
+3. [Colorlib Resta](https://preview.colorlib.com/#resta) -For the menu items layout.
