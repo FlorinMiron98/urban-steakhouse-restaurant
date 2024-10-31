@@ -87,6 +87,8 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 1. **HTML5** - The foundational markup language for structuring web content.
 2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
 3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes.
+## Deployment
+This projects was created using [Visual Studio Code](https://code.visualstudio.com/), committed to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/) using Git's built-in function `git push`
 ## Credits
 ### Content
 - [ChatGPT](https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
