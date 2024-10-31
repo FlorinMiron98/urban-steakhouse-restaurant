@@ -156,3 +156,14 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 3. Videos
    #### About page
    - restaurant-video.mp4: [Video Source](https://pixabay.com/videos/cafe-paris-france-city-restaurant-34203/) - Video by [caelan](https://pixabay.com/users/caelan-12802865/)
+## Code
+1. Code for the navigation bar was created using [Bootstrap Navbar Component](https://getbootstrap.com/docs/5.3/components/navbar/#nav) and edited to fit the project's needs and design.
+2. Code for Events section and Testimonials section carousel was created using [Bootstrap Carousel Component](https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works) and heavily edited to fit the project's needs and design.
+3. Code for Events signup form, Reservation form and Contact form was created using [Bootstrap Forms](https://getbootstrap.com/docs/5.3/forms/overview/#overview)
+4. Code for Discover section and Chefs section cards was created using [Bootstrap Cards](https://getbootstrap.com/docs/5.3/components/card/#about) and slightly modified to fit the project's needs and design.
+5. Code for Video section modal and each chef short story modal was created using [Bootstrap Modals](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
+6. Code for adding the correct CSS prefixes to ensure the cross-browser compatibility was created using [Autoprefixer CSS online](https://autoprefixer.github.io/)
+7. Code for Footer icons and Contact section icons was generated using [Fontawesome Icons](https://fontawesome.com/)
+8. Code for darkening background images was taken from this [stack overflow post](https://stackoverflow.com/questions/26621513/darken-css-background-image)
+## Special Thanks
+- **[ChatGPT]**(https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
