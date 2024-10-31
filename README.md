@@ -151,6 +151,8 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
    - george-collins-chef-1.jpg: [Image Source](https://www.freepik.com/free-photo/chef-cooking-kitchen-while-wearing-professional-attire_138359578.htm#query=chef&position=23&from_view=keyword&track=ais_hybrid&uuid=c6b873cc-ea2d-4ca3-b5ca-3d9eb65e8cf0)
    - julie-smith-chef-2.jpg: [Image Source](https://www.freepik.com/free-photo/female-chef-kitchen-dressed-apron-uniform_32201651.htm#query=chef&position=26&from_view=keyword&track=ais_hybrid&uuid=c6b873cc-ea2d-4ca3-b5ca-3d9eb65e8cf0)
    - michael-hart-chef-3.jpg: [Image Source](https://www.freepik.com/free-ai-image/portrait-man-smiling-kitchen_65335488.htm#query=chef&position=29&from_view=keyword&track=ais_hybrid&uuid=09fc2349-9bb1-41dc-a1dd-ff38aae61075)
-2. Videos
+   #### Contact page
+   - restaurant-bar-daylight.jpg: [Image Source](https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk) - Photo by [Luca Bravo](https://unsplash.com/@lucabravo)
+3. Videos
    #### About page
    - restaurant-video.mp4: [Video Source](https://pixabay.com/videos/cafe-paris-france-city-restaurant-34203/) - Video by [caelan](https://pixabay.com/users/caelan-12802865/)
