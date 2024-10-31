@@ -165,5 +165,5 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 6. Code for adding the correct CSS prefixes to ensure the cross-browser compatibility was created using [Autoprefixer CSS online](https://autoprefixer.github.io/)
 7. Code for Footer icons and Contact section icons was generated using [Fontawesome Icons](https://fontawesome.com/)
 8. Code for darkening background images was taken from this [stack overflow post](https://stackoverflow.com/questions/26621513/darken-css-background-image)
-## Special Thanks
-- **[ChatGPT]**(https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
+## Content
+- [ChatGPT](https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
