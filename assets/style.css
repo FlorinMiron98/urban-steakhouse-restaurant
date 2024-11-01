@@ -364,6 +364,10 @@ header #navbar .navbar-nav .active {
   width: var(--responsive-width);
 }
 
+#main-home #testimonials .container .carousel-item {
+  min-height: 19rem;
+}
+
 #main-home #testimonials .carousel-indicators {
   margin-bottom: 0;
   top: 105%;
