@@ -108,5 +108,12 @@ Google Lighthouse Testing Results
    | Verify display of customer reviews | All customer reviews should be visible | Passed |
    | Test for readability of reviews | Each review should be easy to read | Passed |
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the home page | The homepage should display correctly with all elements | Passed |
+   | Verify navigation menu functionality | All links in the navigation menu should work correctly | Passed |
+   | Test responsiveness | The layout should adapt and be user-friendly on all devices | Passed |
+   | Ensure quick access to essential information | Key information (location, menu, contact) should be easy to find | Passed |
+   | Check for consistent design elements | Fonts, colors, and buttons should be consistent throughout the site | Passed |
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
