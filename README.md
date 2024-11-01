@@ -10,7 +10,7 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [Wireframes](#wireframes)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
+4. [Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
    - [Content](#content)
@@ -169,7 +169,7 @@ This projects was created using [Visual Studio Code](https://code.visualstudio.c
 6. Code for adding the correct CSS prefixes to ensure the cross-browser compatibility was created using [Autoprefixer CSS online](https://autoprefixer.github.io/)
 7. Code for Footer icons and Contact section icons was generated using [Fontawesome Icons](https://fontawesome.com/)
 8. Code for darkening background images was taken from this [Stack Overflow post](https://stackoverflow.com/questions/26621513/darken-css-background-image)
-9. Code for phone number input regular expression was taken from this [Stack Overflow post](https://stackoverflow.com/questions/2113908/what-regular-expression-will-match-valid-international-phone-numbers)
+9. Code for full name input and phone number input regular expressions was created using [ChatGPT](https://chatgpt.com/)
 ### Inspirations
 1. [Colorlib Pato](https://preview.colorlib.com/#pato) - For the overall layout of the website.
 2. [Colorlib The Venue](https://preview.colorlib.com/#thevenue) - For the colors and typography.
