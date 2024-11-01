@@ -169,7 +169,8 @@ This projects was created using [Visual Studio Code](https://code.visualstudio.c
 6. Code for adding the correct CSS prefixes to ensure the cross-browser compatibility was created using [Autoprefixer CSS online](https://autoprefixer.github.io/)
 7. Code for Footer icons and Contact section icons was generated using [Fontawesome Icons](https://fontawesome.com/)
 8. Code for darkening background images was taken from this [Stack Overflow post](https://stackoverflow.com/questions/26621513/darken-css-background-image)
-9. Code for phone number input regular expression was taken from this [Stack Overflow post](https://stackoverflow.com/questions/2113908/what-regular-expression-will-match-valid-international-phone-numbers)
+9. Code for full name input regular expression was created using [ChatGPT](https://chatgpt.com/)
+10. Code for phone number input regular expression was taken from this [Stack Overflow post](https://stackoverflow.com/questions/2113908/what-regular-expression-will-match-valid-international-phone-numbers)
 ### Inspirations
 1. [Colorlib Pato](https://preview.colorlib.com/#pato) - For the overall layout of the website.
 2. [Colorlib The Venue](https://preview.colorlib.com/#thevenue) - For the colors and typography.
