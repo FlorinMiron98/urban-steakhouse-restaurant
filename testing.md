@@ -116,4 +116,12 @@ Google Lighthouse Testing Results
    | Ensure quick access to essential information | Key information (location, menu, contact) should be easy to find | Passed |
    | Check for consistent design elements | Fonts, colors, and buttons should be consistent throughout the site | Passed |
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Verify display of chef profiles | All chef profiles should be visible on the page | Passed |
+   | Check for images of each chef | Each chef profile should display an associated image	| Passed |
+   | Verify descriptions of chefs | Each chef should have a brief description about their experience | Passed |
+   | Ensure consistent layout for chef profiles | All profiles should follow a consistent design format | Passed |
+   | Check for readability of text | Text descriptions should be legible and easy to read | Passed |
+   | Verify responsiveness on all devices | The chefs' section should be accessible and user-friendly on all devices | Passed |
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
