@@ -52,10 +52,17 @@ Google Lighthouse Testing Results
    | **Test Description** | **Outcome** | **Status** |
    | -----------------| ------- | :----: |
    | Verify that the reservation form is displayed | Form should be visible on the page | Passed |
-   | Test form submission with empty fields | Error message indicating required fields should show | Passed |
+   | Test form submission with invalid full name format | Error message indicating the requested format | Passed |
+   | Test form submission with empty full name input | Error message indicating required field should show | Passed |
    | Test form submission with invalid email address | Error message for invalid email should be displayed | Passed |
+   | Test form submission with empty email address input input | Error message indicating required field should show | Passed |
+   | Test form submission with invalid phone number format | Error message indicating the requested format | Passed |
+   | Test form submission with empty phone number input | Error message indicating required field should show | Passed |
+   | Test form submission with empty date input | Error message indicating required field should show | Passed |
+   | Test form submission with empty hours select | Error message indicating required field should show | Passed |
+   | Test form submission with empty number of guests input | Error message indicating required field should show | Passed |
    | Submit the form with valid data | Success message confirming reservation should be displayed | Passed |
-2. As a Regular Customer, I want to sign up for newsletters, so I can stay informed about upcoming events.
+3. As a Regular Customer, I want to sign up for newsletters, so I can stay informed about upcoming events.
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Verify that the newsletter signup form is displayed | Form should be visible on the page | Passed |
@@ -63,10 +70,10 @@ Google Lighthouse Testing Results
    | Test form submission with an invalid email address | Error message for invalid email should be displayed | Passed |
    | Test form submission with an empty text(full name) field | Error message indicating the text field is required | Passed |
    | Submit the form with a valid email address and text input | Success message confirming subscription should be displayed | Passed |
-3. As a First Time Customer, I want the menu to be easily accessible and to be able to see images and read a short description about each dish.
-4. As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
-5. As a Customer, I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
-6. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
-7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
-8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
-9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
+4. As a First Time Customer, I want the menu to be easily accessible and to be able to see images and read a short description about each dish.
+5. As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
+6. As a Customer, I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
+7. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
+8. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+9. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
+10. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
