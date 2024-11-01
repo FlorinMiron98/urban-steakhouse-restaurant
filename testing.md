@@ -82,8 +82,31 @@ Google Lighthouse Testing Results
    | Ensure images are loading correctly | All images should load without errors | Passed |
    | Verify navigation to the menu from homepage | Users should be able to navigate to the menu easily | Passed |
 4. As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the contact information page | The contact information page should display correctly | Passed |
+   | Verify display of location | The restaurant location should be clearly displayed | Passed |
+   | Check for visibility of contact details | The contact details should be clearly visibile | Passed |
+   | Check visibility of opening hours | Opening hours should be clearly displayed and easy to read | Passed |
+   | Test for accessibility on mobile devices | Information should be accessible and readable on mobile | Passed |
 5. As a Customer, I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the contact form page | The contact form should be displayed correctly | Passed |
+   | Test form submission with invalid full name format | Error message indicating the requested format | Passed |
+   | Test form submission with empty full name input | Error message indicating required field should show | Passed |
+   | Test form submission with invalid email address | Error message for invalid email should be displayed | Passed |
+   | Test form submission with empty email address input input | Error message indicating required field should show | Passed |
+   | Test form submission with invalid phone number format | Error message indicating the requested format | Passed |
+   | Test form submission with empty phone number input | Error message indicating required field should show | Passed |
+   | Test form submission with empty textarea message | Error message indicating required field should show | Passed |
+   | Submit form with valid data | Success message confirming reservation should be displayed | Passed |
 6. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the reviews page | The reviews page should be displayed correctly | Passed |
+   | Verify display of customer reviews | All customer reviews should be visible | Passed |
+   | Test for readability of reviews | Each review should be easy to read | Passed |
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
