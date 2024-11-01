@@ -102,6 +102,11 @@ Google Lighthouse Testing Results
    | Test form submission with empty textarea message | Error message indicating required field should show | Passed |
    | Submit form with valid data | Success message confirming reservation should be displayed | Passed |
 6. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the reviews page | The reviews page should be displayed correctly | Passed |
+   | Verify display of customer reviews | All customer reviews should be visible | Passed |
+   | Test for readability of reviews | Each review should be easy to read | Passed |
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
