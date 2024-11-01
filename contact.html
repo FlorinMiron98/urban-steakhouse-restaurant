@@ -110,12 +110,14 @@
                 <div class="row">
                   <!-- Name Input -->
                   <div class="col-12 col-md-4 mb-4">
+                    <!-- The regex value of pattern attribute will not allow users to introduce numbers -->
                     <label for="fname" class="form-label">Your Name</label>
                     <input
                       type="text"
                       id="fname"
                       class="form-control"
                       name="fname"
+                      pattern="^[A-Za-z\s]+$"
                       required
                     />
                   </div>
@@ -132,12 +134,14 @@
                   </div>
                   <!-- Phone Number Input -->
                   <div class="col-12 col-md-4 mb-4">
+                    <!-- The regex value of pattern attribute will accept phone numbers in international format -->
                     <label for="phone" class="form-label">Phone Number</label>
                     <input
                       type="tel"
                       id="phone"
                       class="form-control"
                       name="phone"
+                      pattern="^(0?[1-9]\d{0,14})$"
                       required
                     />
                   </div>
