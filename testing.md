@@ -125,3 +125,10 @@ Google Lighthouse Testing Results
    | Check for readability of text | Text descriptions should be legible and easy to read | Passed |
    | Verify responsiveness on all devices | The chefs' section should be accessible and user-friendly on all devices | Passed |
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the video modal | The video modal should be displayed correctly | Passed |
+   | Verify video playback functionality | The video should play without errors when clicked | Passed |
+   | Test for pause and play controls | Users should be able to pause and resume the video | Passed |
+   | Verify video controls are visible | Play, pause, and volume controls should be present | Passed |
+   | Check responsiveness on all devices | The video should display and play correctly on all devices | Passed |
