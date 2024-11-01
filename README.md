@@ -10,7 +10,7 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [Wireframes](#wireframes)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
+4. [Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
    - [Content](#content)
