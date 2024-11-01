@@ -82,6 +82,13 @@ Google Lighthouse Testing Results
    | Ensure images are loading correctly | All images should load without errors | Passed |
    | Verify navigation to the menu from homepage | Users should be able to navigate to the menu easily | Passed |
 4. As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the contact information page | The contact information page should display correctly | Passed |
+   | Verify display of location | The restaurant location should be clearly displayed | Passed |
+   | Check for visibility of contact details | The contact details should be clearly visibile | Passed |
+   | Check visibility of opening hours | Opening hours should be clearly displayed and easy to read | Passed |
+   | Test for accessibility on mobile devices | Information should be accessible and readable on mobile | Passed |
 5. As a Customer, I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
 6. As a Customer, I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
