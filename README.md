@@ -1,6 +1,8 @@
 # Urban Steakhouse Restaurant
 This is a steakhouse restaurant's website created for food enthusiasts looking for amazing dining experiences, tourists looking for the best local restaurants, but it can also be an inspiration for developers as it is built with a modern approach in terms of web design using the latest features of front end development.
 
+## [Live Website](https://florinmiron98.github.io/urban-steakhouse-restaurant/)
+
 ## Table of Contents
 1. [UX](#ux)
    - [Project Goals](#project-goals)
@@ -12,7 +14,8 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
 3. [Technologies Used](#technologies-used)
 4. [Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md)
 5. [Deployment](#deployment)
-6. [Credits](#credits)
+   -[Run this project locally](#run-this-project-locally)
+7. [Credits](#credits)
    - [Content](#content)
    - [Media](#media)
    - [Code](#code)
@@ -89,6 +92,38 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes.
 ## Deployment
 This projects was created using [Visual Studio Code](https://code.visualstudio.com/), committed to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/) using Git's built-in function `git push`
+
+To deploy this page to GitHub Pages fromt its [GitHub repository](https://github.com/FlorinMiron98/urban-steakhouse-restaurant), the following steps were taken:
+1. Log into GitHub.
+2. From the list of repositories on the screen, select **FlorinMiron98/urban-steakhouse-restaurant**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **master/main branch**.
+6. On selecting **master/main branch** the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed site.
+### Run this project locally
+To clone this project into Gitpod you will need:
+1. A GitHub account. [Create A GitHub account here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
+2. Use the Chrome browser.
+Then follow these steps:
+1. Install the [Gitpod Browser Extenstions for Chrome](https://chromewebstore.google.com/detail/gitpod/dodmmooeoklaejobgleioelladacbeki).
+2. After installation, restart the browser.
+3. Log into [Gitpod](https://app.gitpod.io/login?redirect=%2F) with your account.
+4. Navigate to the [Project GitHub repository](https://github.com/FlorinMiron98/urban-steakhouse-restaurant)
+5. Click the green **Gitpod** button in the top right corner of the repository
+6. This will trigger a new Gitpod workspace to be created from the code in GitHub where you can work locally.
+
+To clone this project from GitHub into a local IDE such as Visual Studio Code:
+1. Follow this link to the [Project GitHub repository](https://github.com/FlorinMiron98/urban-steakhouse-restaurant)
+2. Under the repository name, click **<> Code**
+3. Copy the clone URL for the repository.
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step3.
+```
+git clone https://github.com/FlorinMiron98/urban-steakhouse-restaurant.git
+```
+7. Press **Enter**. Your local clone will be created.
 ## Credits
 ### Content
 - [ChatGPT](https://chatgpt.com/) - Used to generate the text content for Home page (header section, welcome section, discover section, events section, testimonials section), Menu page (the short description for each menu item), About page (introduction section, each chef short story)
