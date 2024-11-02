@@ -108,5 +108,27 @@ Google Lighthouse Testing Results
    | Verify display of customer reviews | All customer reviews should be visible | Passed |
    | Test for readability of reviews | Each review should be easy to read | Passed |
 7. As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the home page | The homepage should display correctly with all elements | Passed |
+   | Verify navigation menu functionality | All links in the navigation menu should work correctly | Passed |
+   | Test responsiveness | The layout should adapt and be user-friendly on all devices | Passed |
+   | Ensure quick access to essential information | Key information (location, menu, contact) should be easy to find | Passed |
+   | Check for consistent design elements | Fonts, colors, and buttons should be consistent throughout the site | Passed |
 8. As a Potential Customer, I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Verify display of chef profiles | All chef profiles should be visible on the page | Passed |
+   | Check for images of each chef | Each chef profile should display an associated image	| Passed |
+   | Verify descriptions of chefs | Each chef should have a brief description about their experience | Passed |
+   | Ensure consistent layout for chef profiles | All profiles should follow a consistent design format | Passed |
+   | Check for readability of text | Text descriptions should be legible and easy to read | Passed |
+   | Verify responsiveness on all devices | The chefs' section should be accessible and user-friendly on all devices | Passed |
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
+   | **Test Description** | **Outcome** | **Status** |
+   | -------------------- | ----------- | :--------: |
+   | Load the video modal | The video modal should be displayed correctly | Passed |
+   | Verify video playback functionality | The video should play without errors when clicked | Passed |
+   | Test for pause and play controls | Users should be able to pause and resume the video | Passed |
+   | Verify video controls are visible | Play, pause, and volume controls should be present | Passed |
+   | Check responsiveness on all devices | The video should display and play correctly on all devices | Passed |
