@@ -3,6 +3,12 @@
 [Main README.md file](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/README.md)
 
 ## Testing
+### Table of Contents
+1. [Validator Testing](#validator-testing)
+2. [Performance, Accessibility and Best Practices Testing](#performance-accessibility-and-best-practices-testing)
+3. [Manual Testing](#manual-testing)
+4. [Testing Client Stories From UX](#testing-client-stories-from-ux)
+
 ### Validator Testing
 1. [W3C Markup Validator](https://validator.w3.org/)
    - **Pages validated**:
@@ -47,7 +53,7 @@ Google Lighthouse Testing Results
        - **Best Practices**: Score 78/100
        - **Notes**:
          The 'Best Practices' score is below 80 because this page uses third-party cookies from [Google Maps](https://www.google.com/maps/dir/?entry=wc)
-## Testing client stories from UX
+## Testing Client Stories From UX
 1. As a Regular Customer, I want to be able to book a table, using a simplified form and receive feedback when the form submission is complete.
    | **Test Description** | **Outcome** | **Status** |
    | -----------------| ------- | :----: |
