@@ -819,7 +819,7 @@ footer .container a:hover {
     min-height: 22rem;
   }
 
-  #main-menu #starters .container .item-image {
+  #main-menu .section .container .item-image {
     /* 150px / 16 */
     width: 9.375rem;
     height: 9.375rem;
