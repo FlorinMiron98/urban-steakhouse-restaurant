@@ -364,10 +364,6 @@ header #navbar .navbar-nav .active {
   width: var(--responsive-width);
 }
 
-#main-home #testimonials .container .carousel-item {
-  min-height: 19rem;
-}
-
 #main-home #testimonials .carousel-indicators {
   margin-bottom: 0;
   top: 105%;
@@ -768,6 +764,10 @@ footer .container a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  #main-home #testimonials .container .carousel-item {
+    min-height: 20rem;
+  }
+
   #main-menu #menu .menu-grid {
     /* Organize the grid template areas layout into 1 column for medium screen sizes smaller than 768px */
     grid-template-areas:
@@ -813,6 +813,10 @@ footer .container a:hover {
 
   #header-home .container p {
     font-size: 0.8rem;
+  }
+
+  #main-home #testimonials .container .carousel-item {
+    min-height: 22rem;
   }
 
   #main-menu #starters .container .item-image {
