@@ -108,10 +108,22 @@ To deploy this page to GitHub Pages fromt its [GitHub repository](https://github
 1. Log into GitHub.
 2. From the list of repositories on the screen, select **FlorinMiron98/urban-steakhouse-restaurant**.
 3. From the menu items near the top of the page, select **Settings**.
+
+![Settings](https://github.com/user-attachments/assets/d14d88fc-a7ea-41fe-adf7-8e5abbd4b152)
+
 4. Scroll down to the **GitHub Pages** section.
+
+![GitHub Pages](https://github.com/user-attachments/assets/a34905fe-16cc-4266-a23b-6777a0840767)
+
 5. Under **Source** click the drop-down menu labelled **None** and select **master/main branch**.
+
+![Main Branch Select](https://github.com/user-attachments/assets/649ac43e-5d86-4fb6-93e6-0ee6f6b0dd5f)
+
 6. On selecting **master/main branch** the page is automatically refreshed, the website is now deployed.
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed site.
+
+![Live Website Link](https://github.com/user-attachments/assets/fd494574-d8d8-4fa9-9242-96556915a2ea)
+
 ### Run this project locally
 To clone this project into Gitpod you will need:
 1. A GitHub account. [Create A GitHub account here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
@@ -122,14 +134,26 @@ Then follow these steps:
 3. Log into [Gitpod](https://app.gitpod.io/login?redirect=%2F) with your account.
 4. Navigate to the [Project GitHub repository](https://github.com/FlorinMiron98/urban-steakhouse-restaurant)
 5. Click the green **Gitpod** button in the top right corner of the repository
+
+![Open with Gitpod](https://github.com/user-attachments/assets/9d47a0bd-d3a5-481f-a21a-05389006ba55)
+
 6. This will trigger a new Gitpod workspace to be created from the code in GitHub where you can work locally.
 
 To clone this project from GitHub into a local IDE such as Visual Studio Code:
 1. Follow this link to the [Project GitHub repository](https://github.com/FlorinMiron98/urban-steakhouse-restaurant)
 2. Under the repository name, click **<> Code**
+
+![Code Button](https://github.com/user-attachments/assets/825b52b4-3665-450f-8767-91d14267ccb1)
+
 3. Copy the clone URL for the repository.
+
+![Code Clone URL](https://github.com/user-attachments/assets/6d947ed1-1411-4731-b275-98ef4e2eb5ca)
+
 4. In your local IDE open the terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
+
+![Working Directory Path](https://github.com/user-attachments/assets/eb358fa3-7716-41c2-abf0-d97c2f7387ea)
+
 6. Type `git clone`, and then paste the URL you copied in Step3.
 ```
 git clone https://github.com/FlorinMiron98/urban-steakhouse-restaurant.git
