@@ -138,3 +138,27 @@ Google Lighthouse Testing Results
    | Test for pause and play controls | Users should be able to pause and resume the video | Passed |
    | Verify video controls are visible | Play, pause, and volume controls should be present | Passed |
    | Check responsiveness on all devices | The video should display and play correctly on all devices | Passed |
+## Manual Testing
+Conducting manual testing for the steakhouse website to ensure optimal user experience and functionality.
+- **Desktop testing:** Verified compatibility using Chrome, Firefox, Microsoft Edge as well as Safari through [Playwright](https://playwright.dev/) on a Windows computer.
+- **Mobile Testing (Android):** Checking responsiveness and functionality with Chrome and Firefox browsers on an Android device.
+- **Link Verification:** All manually tested links, both internal and external, have been verified and successfully confirmed to function correctly, ensuring seamless navigation.
+- **Form Validation:** All forms on the website have undergone thorough validation testing to ensure that users receive appropriate feedback for any input errors. Each form accurately checks for required fields and correct formatting.
+## Functional Testing
+| **Test Description** | **Expected Result** | **Status** |
+| -------------------- | ------------------- | :--------: |
+| Click on the "Home" link or logo in the navigation | The home page should load | Passed |
+| Click on the "Menu" link in the navigation | The menu page should load | Passed |
+| Click on the "Reservation" page in the navigation | The reservation page should load | Passed |
+| Click on the "Subscribe" navigation from each page | The "Events Signup" from home page should be displayed | Passed |
+| Click on the "About" page in the navigation | The about page should load | Passed |
+| Click on the "Contact" page in the navigation | The contact page should load | Passed |
+| Fill out each form with invalid inputs | Error messages should be displayed indicating invalid input | Passed |
+| Fill out each form with valid inputs and submit it | A confirmation page should be displayed indicating successful submission | Passed |
+| Press each prev and next buttons of Events and Testimonials carousel | The carousel should play | Passed |
+| Move the cursor outside of Events and Tesimonials carousel | The carousel should autoplay | Passed |
+| Click on the social media links in the footer | The respective social media pages should open in a new tab | Passed |
+| Click on the "open-video-modal" button from the "About" page | The video modal should open | Passed |
+| Play the video on the modal from the about page | The video should play | Passed |
+| Pause the video on the modal from the about page | The video should pause | Passed |
+| Click on each "View Details" button from the "Meet Our Chefs" section | A modal containing each chef's short description should open | Passed |
