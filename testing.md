@@ -37,34 +37,35 @@ Google Lighthouse Testing Results
        - **Performance**: Score 99/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
-       - 
+         
      ![index html - performance scores](https://github.com/user-attachments/assets/ccadd438-9e79-488d-b0c4-1d938f33a92f)
 
      - **Menu page**(menu.html)
        - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
-       - 
+         
      ![menu html - performance scores](https://github.com/user-attachments/assets/bcf76cac-6108-42bc-967f-7241d5b55ee5)
 
      - **Reservation page**(reservation.html)
        - **Performance**: Score 99/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
+         
      ![reservation html - performance scores](https://github.com/user-attachments/assets/26c30b63-b9ac-4aa6-bdb6-3201d930b928)
 
      - **About page**(about.html)
        - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
-       - 
+         
      ![about html - performance scores](https://github.com/user-attachments/assets/81ffd2e9-a29a-49fb-bb1c-43769701954d)
 
      - **Contact page**(contact.html)
        - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 78/100
-       - 
+         
        ![contact html - performance scores](https://github.com/user-attachments/assets/ea1f82b0-0c8f-4177-8c00-820e5660c4bd)
 
        - **Notes**:
