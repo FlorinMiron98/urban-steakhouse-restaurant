@@ -233,6 +233,7 @@ git clone https://github.com/FlorinMiron98/urban-steakhouse-restaurant.git
 3. Videos
    #### About page
    - restaurant-video.mp4: [Video Source](https://pixabay.com/videos/cafe-paris-france-city-restaurant-34203/) - Video by [caelan](https://pixabay.com/users/caelan-12802865/)
+The **responsive screen mockup** was created using [Yujin Yeoh Mockup Generator](https://yujinyeoh.com/website-mockup-generator)
 ### Code
 1. Code for the navigation bar was created using [Bootstrap Navbar Component](https://getbootstrap.com/docs/5.3/components/navbar/#nav) and edited to fit the project's needs and design.
 2. Code for Events section and Testimonials section carousel was created using [Bootstrap Carousel Component](https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works) and heavily edited to fit the project's needs and design.
