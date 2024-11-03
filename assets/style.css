@@ -57,6 +57,8 @@ h1,
 h2 {
   font-family: var(--font-primary);
   letter-spacing: 10px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 
 /* Utility classes */
