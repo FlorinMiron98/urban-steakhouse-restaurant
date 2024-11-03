@@ -22,35 +22,46 @@
      - contact-confirm.html
    - **Results**:
      - The result for all pages checking is _"Document checking completed. No errors or warnings to show."_
+      ![w3c - markup validator](https://github.com/user-attachments/assets/408ad642-8a9a-412e-b618-3be891a7663c)
 2. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
    - The CSS file was validated and is used across all HTML pages.
      **Results**:
      - The result for the CSS file checking is _"Congratulations! No Error Found."_
+     ![w3c - css validator](https://github.com/user-attachments/assets/b54a1655-1e2d-430a-9a4a-2222342358d3)
 ### Performance, Accessibility and Best Practices Testing
 Google Lighthouse Testing Results
    - **Overview**
      Google Lighthouse was used to evaluate the performance and quality of the Urban Steakhouse Restaurant project.
    - **Results by Page**
      - **Home page**(index.html)
-       - **Performance**: Score 98/100
+       - **Performance**: Score 99/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
+     ![index html - performance scores](https://github.com/user-attachments/assets/ccadd438-9e79-488d-b0c4-1d938f33a92f)
+
      - **Menu page**(menu.html)
-       - **Performance**: Score 98/100
+       - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
+     ![menu html - performance scores](https://github.com/user-attachments/assets/bcf76cac-6108-42bc-967f-7241d5b55ee5)
+
      - **Reservation page**(reservation.html)
        - **Performance**: Score 99/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
+     ![reservation html - performance scores](https://github.com/user-attachments/assets/26c30b63-b9ac-4aa6-bdb6-3201d930b928)
+
      - **About page**(about.html)
-       - **Performance**: Score 99/100
+       - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 100/100
+     ![about html - performance scores](https://github.com/user-attachments/assets/81ffd2e9-a29a-49fb-bb1c-43769701954d)
+
      - **Contact page**(contact.html)
        - **Performance**: Score 100/100
        - **Accessibility**: Score 100/100
        - **Best Practices**: Score 78/100
+       ![contact html - performance scores](https://github.com/user-attachments/assets/ea1f82b0-0c8f-4177-8c00-820e5660c4bd)
        - **Notes**:
          The 'Best Practices' score is below 80 because this page uses third-party cookies from [Google Maps](https://www.google.com/maps/dir/?entry=wc)
 ## Testing Client Stories From UX
