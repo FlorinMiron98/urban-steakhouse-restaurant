@@ -824,4 +824,13 @@ footer .container a:hover {
     width: 9.375rem;
     height: 9.375rem;
   }
+
+  #main-home #discover .heading-background,
+  #main-menu #starters .heading-background,
+  #main-menu #mains .heading-background,
+  #main-menu #desserts .heading-background,
+  #main-menu #drinks .heading-background,
+  #main-about #video .heading-background {
+    background-attachment: initial;
+  }
 }
