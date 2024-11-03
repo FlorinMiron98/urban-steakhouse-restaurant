@@ -20,9 +20,13 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [Contact Page](#)
 4. [Technologies Used](#technologies-used)
 5. [Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md)
-6. [Deployment](#deployment)
+   - [Validator Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#validator-testing)
+   - [Performance, Accessibility and Best Practices Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#performance-accessibility-and-best-practices-testing)
+   - [Manual Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#manual-testing)
+   - [Testing Client Stories From UX](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#testing-client-stories-from-ux)
+7. [Deployment](#deployment)
    - [Run this project locally](#run-this-project-locally)
-7. [Credits](#credits)
+8. [Credits](#credits)
    - [Content](#content)
    - [Media](#media)
    - [Code](#code)
@@ -96,7 +100,7 @@ Wireframes serve as a blueprint for the design, focusing on placement of element
 ## Technologies Used
 1. **HTML5** - The foundational markup language for structuring web content.
 2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
-3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes.
+3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, pre-designed components and utility classes. More about Bootstrap on the [official Bootstrap webpage](https://getbootstrap.com/)
 ## Deployment
 This projects was created using [Visual Studio Code](https://code.visualstudio.com/), committed to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/) using Git's built-in function `git push`
 
