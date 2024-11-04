@@ -17,7 +17,10 @@
 5. [Reservation Page](#reservation-page)
 6. [About Page](#)
    - [Introduction](#introduction)
-7. [Contact Page](#)
+   - [Chefs](#chefs)
+7. [Contact Page](#contact-page)
+   - [Contact Form](#contact-form)
+   - [Contact Details](#contact-details)
 
 ## Navigation Bar
 
@@ -116,3 +119,24 @@
 - Features three cards, each showcasing a chef with a photo, their name in a heading, and a "View Details" button that opens a modal displaying a short description about each chef.
 
 ![chef-modal](https://github.com/user-attachments/assets/4b108740-3002-4956-95c0-505ebce0457e)
+
+## Contact Page
+### Contact Form
+
+![contact-form](https://github.com/user-attachments/assets/7a564e38-f912-4f5a-8ad6-f8c3775384b6)
+
+- Features a user-friendly contact form with inputs for full name, email address, phone number, and a message, allowing users to effortlessly reach out to the restaurant.
+
+![contact-form](https://github.com/user-attachments/assets/cbe3c9a6-7a56-4241-8629-626215576317)
+
+-   It also includes a prominent submit button that seamlessly redirects users to a confirmation page, providing a reassuring message once their inquiry has been successfully submitted.
+![contact-submit-success](https://github.com/user-attachments/assets/e0d1632b-9eed-4aa6-b5e3-8e31db762d6b)
+
+### Contact Details
+
+![contact-details](https://github.com/user-attachments/assets/8971844b-f174-4583-b5ee-7470af17d334)
+
+- Displays the restaurant's location address, email address, phone number, opening hours, and an embedded Google Map highlighting the restaurant's location for easy navigation.
+
+
+
