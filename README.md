@@ -120,7 +120,7 @@ To deploy this page to GitHub Pages fromt its [GitHub repository](https://github
 
 5. Under **Source** click the drop-down menu labelled **None** and select **master/main branch**.
 
-![Main Branch Select](https://github.com/user-attachments/assets/649ac43e-5d86-4fb6-93e6-0ee6f6b0dd5f)
+![Main Branch Select](https://github.com/user-attachments/assets/649ac43e-5d86-4fb6-93e6-0ee6f6b0dd5f | height=150)
 
 6. On selecting **master/main branch** the page is automatically refreshed, the website is now deployed.
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed site.
