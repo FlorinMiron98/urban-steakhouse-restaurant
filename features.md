@@ -15,7 +15,7 @@
    - [Menu Overview](#menu-overview)
    - [Menu Items Layout](#menu-items-layout)
 5. [Reservation Page](#reservation-page)
-6. [About Page](#)
+6. [About Page](#about-page)
    - [Introduction](#introduction)
    - [Chefs](#chefs)
 7. [Contact Page](#contact-page)
