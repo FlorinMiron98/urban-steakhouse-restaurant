@@ -8,6 +8,7 @@
 3. [Manual Testing](#manual-testing)
 4. [Testing Client Stories From UX](#testing-client-stories-from-ux)
 5. [Functional Testing](#functional-testing)
+6. [Bugs](#bugs)
 
 ### Validator Testing
 1. [W3C Markup Validator](https://validator.w3.org/)
@@ -179,3 +180,5 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
 | Play the video on the modal from the about page | The video should play | Passed |
 | Pause the video on the modal from the about page | The video should pause | Passed |
 | Click on each "View Details" button from the "Meet Our Chefs" section | A modal containing each chef's short description should open | Passed |
+### Bugs
+- As iOS has an issue preventing `background-attachment: fixed` from being used with `background-size: cover` on small screen sizes, I had to remove the `background-attachment: fixed` property for small screen sizes
