@@ -13,24 +13,6 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [User Stories](#user-stories)
    - [Design Choices](#design-choices)
    - [Wireframes](#wireframes)
-     - [Home Page](#home-page)
-       - [Hero Section](#hero-section)
-       - [Welcome Section](#welcome-section)
-       - [Discover Section](#discover-section)
-       - [Events Section](#events-section)
-       - [Testimonials Section](#testimonials-section)
-       - [Events Signup Section](#events-signup-section)
-     - [Menu Page](#menu-page)
-       - [Menu Overview Grid](#menu-overview-grid)
-       - [Menu Items Layout](#menu-items-layout)
-     - [Reservation Page](#reservation-page)
-     - [About Page](#about-page)
-       - [Introduction Section](#introduction-section)
-       - [Video Section](#video-section)
-       - [Chefs Section](#chefs-section)
-     - [Contact Page](#contact-page)
-       - [Contact Form Section](#contact-form-section)
-       - [Contact Details Section](#contact-details-section)
 2. [Features](#features)
    - [Navigation Bar](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md#navigation-bar)
    - [Footer](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md#footer)
@@ -127,66 +109,11 @@ The user experience (UX) design of the steakhouse restaurant website is crafted 
 9. As a Potential Customer, I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
 ### Wireframes
 Wireframes serve as a blueprint for the design, focusing on placement of elements and overall flow. Below are the key wireframes for the main pages:
-#### Home Page
-##### Hero Section
-
-![hero](https://github.com/user-attachments/assets/90f9955e-c7a4-4db4-8f53-aaf21505f10c)
-
-##### Welcome Section
-
-![welcome](https://github.com/user-attachments/assets/07707550-3f1f-469d-9e38-04307276b035)
-
-##### Discover Section
-
-![discover](https://github.com/user-attachments/assets/7c03ab4d-42cf-47a9-9a60-aebf04664681)
-
-##### Events Section
-
-![events](https://github.com/user-attachments/assets/77676f24-eb2c-4bf3-acd3-7a013d367b0f)
-
-##### Testimonials Section
-
-![testimonials](https://github.com/user-attachments/assets/c141d191-7583-4d1b-bacd-13c598129337)
-
-##### Events Signup Section
-
-![subscribe](https://github.com/user-attachments/assets/24b2c21c-76e7-4098-868f-4648b95a8634)
-
-#### Menu Page
-##### Menu Overview Grid
-
-![menu-overview-grid](https://github.com/user-attachments/assets/2174e6cc-391d-4cbc-bcf1-838524b7ffe9)
-
-##### Menu Items Layout
-
-![menu-items-layout](https://github.com/user-attachments/assets/eaea939f-1eab-45a7-85dc-d94430ec10a0)
-
-#### Reservation Page
-
-![reservation-form](https://github.com/user-attachments/assets/a591c2cb-1e6d-4456-9078-fa5a25d640f4)
-
-#### About Page
-##### Introduction Section
-
-![introduction](https://github.com/user-attachments/assets/462ccef5-1328-449c-9ea5-cb7bc0a757ac)
-
-##### Video Section
-
-![video](https://github.com/user-attachments/assets/7115baaf-ed5e-4190-be16-bc75fe9dd344)
-
-##### Chefs Section
-
-![chefs](https://github.com/user-attachments/assets/c3ab07ce-2c91-4284-b5ac-c76d99d30bb5)
-
-#### Contact Section
-##### Contact Form Section
-
-![contact-form](https://github.com/user-attachments/assets/b236f0c0-e4eb-4569-9138-1f453bbfcdd9)
-
-##### Contact Details Section
-
-![contact-details](https://github.com/user-attachments/assets/c3215818-6643-4e5b-a41f-bc5cd024d8bb)
-
+1. [Home Page](https://postimg.cc/pyKg8z8J)
+2. [Menu Page](https://postimg.cc/JGqvY8py)
+3. [Reservation Page](https://postimg.cc/KRFC5jDS)
+4. [About Page](https://postimg.cc/JH3vLCm2)
+5. [Contact Page](https://postimg.cc/5QWTT2cz)
 ## Technologies Used
 1. **HTML5** - The foundational markup language for structuring web content.
 2. **CSS3** - Used for styling and layout, enhancing the visual appearance of the project.
