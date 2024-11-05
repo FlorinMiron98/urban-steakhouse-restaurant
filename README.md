@@ -39,6 +39,8 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [Performance, Accessibility and Best Practices Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#performance-accessibility-and-best-practices-testing)
    - [Manual Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#manual-testing)
    - [Testing Client Stories From UX](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#testing-client-stories-from-ux)
+   - [Functional Testing](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#functional-testing)
+   - [Bugs](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/testing.md#bugs)
 7. [Deployment](#deployment)
    - [Run this project locally](#run-this-project-locally)
 8. [Credits](#credits)
