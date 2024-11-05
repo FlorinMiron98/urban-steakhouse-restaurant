@@ -2,12 +2,12 @@
 
 [Main README.md file](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/README.md)
 
-## Testing
-### Table of Contents
+## Table of Contents
 1. [Validator Testing](#validator-testing)
 2. [Performance, Accessibility and Best Practices Testing](#performance-accessibility-and-best-practices-testing)
 3. [Manual Testing](#manual-testing)
 4. [Testing Client Stories From UX](#testing-client-stories-from-ux)
+5. [Functional Testing](#functional-testing)
 
 ### Validator Testing
 1. [W3C Markup Validator](https://validator.w3.org/)
@@ -70,7 +70,13 @@ Google Lighthouse Testing Results
 
        - **Notes**:
          The 'Best Practices' score is below 80 because this page uses third-party cookies from [Google Maps](https://www.google.com/maps/dir/?entry=wc)
-## Testing Client Stories From UX
+### Manual Testing
+Conducting manual testing for the steakhouse website to ensure optimal user experience and functionality.
+- **Desktop testing:** Verified compatibility using Chrome, Firefox, Microsoft Edge as well as Safari through [Playwright](https://playwright.dev/) on a Windows computer.
+- **Mobile Testing (Android):** Checking responsiveness and functionality with Chrome and Firefox browsers on an Android device.
+- **Link Verification:** All manually tested links, both internal and external, have been verified and successfully confirmed to function correctly, ensuring seamless navigation.
+- **Form Validation:** All forms on the website have undergone thorough validation testing to ensure that users receive appropriate feedback for any input errors. Each form accurately checks for required fields and correct formatting.
+### Testing Client Stories From UX
 1. As a Regular Customer, I want to be able to book a table, using a simplified form and receive feedback when the form submission is complete.
    | **Test Description** | **Outcome** | **Status** |
    | -----------------| ------- | :----: |
@@ -155,13 +161,7 @@ Google Lighthouse Testing Results
    | Test for pause and play controls | Users should be able to pause and resume the video | Passed |
    | Verify video controls are visible | Play, pause, and volume controls should be present | Passed |
    | Check responsiveness on all devices | The video should display and play correctly on all devices | Passed |
-## Manual Testing
-Conducting manual testing for the steakhouse website to ensure optimal user experience and functionality.
-- **Desktop testing:** Verified compatibility using Chrome, Firefox, Microsoft Edge as well as Safari through [Playwright](https://playwright.dev/) on a Windows computer.
-- **Mobile Testing (Android):** Checking responsiveness and functionality with Chrome and Firefox browsers on an Android device.
-- **Link Verification:** All manually tested links, both internal and external, have been verified and successfully confirmed to function correctly, ensuring seamless navigation.
-- **Form Validation:** All forms on the website have undergone thorough validation testing to ensure that users receive appropriate feedback for any input errors. Each form accurately checks for required fields and correct formatting.
-## Functional Testing
+### Functional Testing
 | **Test Description** | **Expected Result** | **Status** |
 | -------------------- | ------------------- | :--------: |
 | Click on the "Home" link or logo in the navigation | The home page should load | Passed |
