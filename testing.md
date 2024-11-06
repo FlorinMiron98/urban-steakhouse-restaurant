@@ -201,3 +201,4 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
 | Click on each "View Details" button from the "Meet Our Chefs" section | A modal containing each chef's short description should open | Passed |
 ### Bugs
 - As iOS has an issue preventing `background-attachment: fixed` from being used with `background-size: cover` on small screen sizes, I had to remove the `background-attachment: fixed` property for small screen sizes
+- On the 'Video' section the users might expect the video to play automatically after the video modal appears. However that is not possible as JavaScript usage is missing. The user will have to play and pause the video using the built-in controls provided by the HTML video element.
