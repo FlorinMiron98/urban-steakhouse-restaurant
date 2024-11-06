@@ -113,15 +113,51 @@ The user experience (UX) design of the steakhouse restaurant website is crafted 
    - I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
 ### Design Choices
 #### Typography
+- The font families used for this project are 'Pacifico' as the primary font and 'Open Sans' as the secondary font.
+- 'Pacifico' font was chosen for its hand-written style and mainly used for headings and navigation links as it conveys a sense of warmth and welcoming atmosphere.
+- 'Open Sans' font was chosen to ensure readability across all devices as it is mainly used for longer paragraphs.
 #### Colors
+- The colors used for this website are brown, dark steel blue, white, gray, light gray and transparent gray.
+- **Brown** is the primary font color and it is used in combination with 'Pacifico' font family to give a touch of confort and cozy environment.
+- **Dark steel blue** is the secondary font color and it is used for text content and as background color for footer to make sure it enhances readability and creates a contrast between the background and lighter text. Dark steel blue is also used for navigation bar box-shadow as it creates the effect of elevation compared to the rest of the content.
+- **White** is mainly used for headings with background images to make sure the text stands out clearly and is easily distinguished from its background.
+- **Gray** is used as a background color for the Events Signup section in order to make the user focus its attention on this section. Gray is also used for social media links in the footer in order to make them easily accessible without being to prominent in contrast with dark steel blue background color.
+- **Light gray** is mainly used as background color for the body element as it gives a neutral tone of the website and it is easy on the eyes.
+- **Transparent gray** is used in combination with blurring backdrop filter as background color for the navigation bar to ensure the content behind remains visible as the user scrolls and the navigation bar still stands out.
 #### Navigation
+- The following aspects were taken into consideration for designing the navigation bar to ensure the user has a smooth experience on navigating the website:
+  - **Fixed Behaviour** - By making the navigation fixed on the top of the page, we ensure the user can easily access other website links without having to scroll back to the top.
+  - **Background Color** - The navigation bar's background color consists of a transparent gray combined with a blurred backdrop filter so that we can allow the content behind to be visible while the user is scrolling and make sure the navigation bar remains distinct.
+  - **Navigation Links** - The combination of 'Pacifico' font family and brown for font color helps the navigation stand out while creating a welcoming atmosphere when inviting the user to navigate the website.
+  - **Box Shadow** - The dark steel blue color of the navigation bar box shadow creates a visually pleasing effect by emphasizing the fixed position of the navigation bar.
+#### Footer
+- The footer is designed to provide users with essential information in a clean and organized way.
+- The background color chosen for the footer is **dark steel blue** so it can easily stand out and is clearly separated from the rest of the page.
+- The font color is **white** so the content can be easily distinguished from the background color.
+- The content is displayed in 3 columns using the [Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example) to ensure consistency and responsiveness.
 #### Layout
-#### Images & Backgrounds
+- The layout design choices were made based on the following aspects:
+  - **Visual Hierarchy** - Navigation bar links, headings and buttons are highlighted by combining the primary font color (brown), the primary font family (Pacifico) and white color so the user's attention is directed towards the most important features.
+  - **White Space** - A lot of white space has been so the users are not overwhelmed with information and readability is improved.
+  - **Modern Layout Features** - The overall layout of each section was created using modern features such as CSS Flexbox, CSS Grid and [Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example) to make sure the content is visually balanced and responsive.  
+#### Images & Background Images
+- All images are carefully selected and of high quality in order to create a warm and inviting atmosphere for the users, create interest and draw attention to the restaurant's offerings.
+- For sections like each page's hero section and headings with background, a high quality and professional background image has been used to reflect the content the user is about to see on that section. Background images are paired with white text to make sure the readability is not affected.
 #### Menu Design
-#### Contact & Reservation Forms
-#### Video
+- When the user navigates to the menu page, the menu sections are initially displayed as a CSS Grid container, each grid track containing a background image and an anchor tag that leads the user to the chosen section.
+- Each menu item is presented clearly to provide the customers with the information they need (a high quality dish, the name of the item, a brief description and the price).
+- The layout of the menu items is displayed into 2 columns using the [Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example) to allow for a clean a structured presentation. 
+#### Contact, Reservation & Events Signup Forms
+- The forms were created using [Bootstrap Forms](https://getbootstrap.com/docs/5.3/forms/overview/#overview). This ensures consistency in design and leverages the accessibility features provided by Bootstrap.
+#### Carousels
+- The carousels for both 'Events' and 'Testimonials' sections were created using [Bootstrap Carousels](https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works) so the content is displayed in a pleasing and modern way for the user to feel engaged.
+#### Modals
+- The modals for the 'Video' and 'Chefs' sections are created using [Bootstrap Modals](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) to enhance interactivity and provide the user with a smooth experience when triggering their display.
+- The modals were used so the website is not cluttered with information.
+#### Cards
+- The cards for the 'Welcome' and 'Chefs' sections are created using [Bootstrap Cards](https://getbootstrap.com/docs/5.3/components/card/#about) in order to provide the user with clear separation of content and enhance the user experience while leveraging the responsiveness features.
 #### Responsive Design
-
+- The content adapts seamlessly to all screen sizes and devices, ensuring a smooth user experience.
 ### Wireframes
 Wireframes serve as a blueprint for the design, focusing on placement of elements and overall flow. Below are the key wireframes for the main pages:
 1. [Home Page](https://postimg.cc/pyKg8z8J)
