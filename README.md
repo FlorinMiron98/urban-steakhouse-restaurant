@@ -108,9 +108,9 @@ The user experience (UX) design of the steakhouse restaurant website is crafted 
    - I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
    - I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
    - I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
+   - I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
 4. As a customer:
    - I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
-   - I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
 ### Design Choices
 #### Typography
 #### Colors
