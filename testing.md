@@ -80,6 +80,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
 ### Testing Client Stories From UX
 1. As a regular customer:
    - I want to be able to book a table, using a simplified form and receive feedback when the form submission is complete.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -----------------| ------- | :----: |
    | Verify that the reservation form is displayed | Form should be visible on the page | Passed |
@@ -95,6 +96,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Submit the form with valid data | Success message confirming reservation should be displayed | Passed |
 
    - I want to sign up for newsletters, so I can stay informed about upcoming events.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Verify that the newsletter signup form is displayed | Form should be visible on the page | Passed |
@@ -105,6 +107,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
 
 2. As a first time customer:
    - I want the menu to be easily accessible and to be able to see images and read a short description about each dish.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the menu page | The menu page should be displayed correctly | Passed |
@@ -117,6 +120,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Verify navigation to the menu from homepage | Users should be able to navigate to the menu easily | Passed |
 
    - I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the home page | The homepage should display correctly with all elements | Passed |
@@ -126,6 +130,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Check for consistent design elements | Fonts, colors, and buttons should be consistent throughout the site | Passed |
 3. As a potential customer:
    - I need to find essential information such as location, contact details, and opening hours clearly and concisely, so that I can plan my visit accordingly.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the contact information page | The contact information page should display correctly | Passed |
@@ -135,6 +140,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Test for accessibility on mobile devices | Information should be accessible and readable on mobile | Passed |
 
    - I want to know who the restaurant's chefs are so that I can feel confident in the quality and creativity of the food.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Verify display of chef profiles | All chef profiles should be visible on the page | Passed |
@@ -145,6 +151,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Verify responsiveness on all devices | The chefs' section should be accessible and user-friendly on all devices | Passed |
 
    - I want to watch a small video that showcases the ambience of the restaurant, so that I can get a feel for the atmosphere and overall dining experience before deciding to visit.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the video modal | The video modal should be displayed correctly | Passed |
@@ -154,6 +161,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Check responsiveness on all devices | The video should display and play correctly on all devices | Passed |
 
    - I want to read reviews and ratings from other customers, so that I can gauge the quality of the restaurant.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the reviews page | The reviews page should be displayed correctly | Passed |
@@ -161,6 +169,7 @@ Conducting manual testing for the steakhouse website to ensure optimal user expe
    | Test for readability of reviews | Each review should be easy to read | Passed |
 4. As a customer:
    - I want to contact the restaurant easily through a contact form, so that I can ask questions or provide feedback.
+     
    | **Test Description** | **Outcome** | **Status** |
    | -------------------- | ----------- | :--------: |
    | Load the contact form page | The contact form should be displayed correctly | Passed |
