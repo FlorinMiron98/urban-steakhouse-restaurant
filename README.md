@@ -13,7 +13,7 @@ This is a steakhouse restaurant's website created for food enthusiasts looking f
    - [User Stories](#user-stories)
    - [Design Choices](#design-choices)
    - [Wireframes](#wireframes)
-2. [Features](#features)
+2. [Features](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md)
    - [Navigation Bar](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md#navigation-bar)
    - [Footer](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md#footer)
    - [Home Page](https://github.com/FlorinMiron98/urban-steakhouse-restaurant/blob/main/features.md#home-page)
